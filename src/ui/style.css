@@ -1462,3 +1462,6 @@ h1 {
 .next-challenge { margin-top: 24px; padding: 18px; background: #26312f; border: 1px solid #68756a; }
 .next-challenge p { margin: 0 0 14px; color: #d4dccf; line-height: 1.5; font-size: 13px; }
 .next-challenge .button { min-height: 44px; width: 100%; }
+
+.reset-settings { min-height: 44px; padding: 8px 0; border: 0; background: transparent; color: #c8d0c3; text-decoration: underline; text-underline-offset: 3px; font-size: 12px; }
+.reset-settings:hover { color: var(--cream); }

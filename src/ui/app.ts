@@ -17,6 +17,7 @@ import {
   loadRun,
   saveRun,
   loadSettings,
+  defaultSettings,
   saveSettings,
   getStorageNotice,
 } from "../persistence";
@@ -131,7 +132,7 @@ export function mountApp(root: HTMLElement): void {
   const button = (action: string, label: string, secondary = false) =>
     `<button class="button ${secondary ? "button-secondary" : "button-primary"}" data-action="${action}">${label}<span aria-hidden="true">${secondary ? "" : " ↗"}</span></button>`;
   const home = () =>
-    `<main class="home-screen"><div class="hero"><div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> ${t("arcade")} <span> / </span> 01</div><h1>${t("heroYour")}<br><em>${t("heroFive")}.</em><br>${t("heroYour")}<br>${t("heroRun")}<span class="orange">.</span></h1><p>${t("tagline")}</p>${teamNamePicker()}${difficultyPicker()}${run ? difficultyBadge("activeDifficulty", run.difficulty) : ""}<div class="hero-actions">${run ? `${button("continue", t("continue"))}<button class="text-button" data-action="new">${t("playAgain")} →</button>` : button("new", t("play"))}${button("tutorial", t("how"), true)}</div></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="ball"><i></i></div><span class="art-star star-one">✦</span><span class="art-star star-two">✳</span><div class="art-label">${t("fivePlayers")}<br><b>${t("oneTitle")}</b></div><span class="art-number">05</span></div></div><div class="home-footer"><span>${t("footerMotto")}</span><span>EST. 2026</span></div><p class="storage-note">${t("storage")}</p></main>`;
+    `<main class="home-screen"><div class="hero"><div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> ${t("arcade")} <span> / </span> 01</div><h1>${t("heroYour")}<br><em>${t("heroFive")}.</em><br>${t("heroYour")}<br>${t("heroRun")}<span class="orange">.</span></h1><p>${t("tagline")}</p>${teamNamePicker()}${difficultyPicker()}${run ? difficultyBadge("activeDifficulty", run.difficulty) : ""}<div class="hero-actions">${run ? `${button("continue", t("continue"))}<button class="text-button" data-action="new">${t("playAgain")} →</button>` : button("new", t("play"))}${button("tutorial", t("how"), true)}</div></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="ball"><i></i></div><span class="art-star star-one">✦</span><span class="art-star star-two">✳</span><div class="art-label">${t("fivePlayers")}<br><b>${t("oneTitle")}</b></div><span class="art-number">05</span></div></div><div class="home-footer"><span>${t("footerMotto")}</span><span>EST. 2026</span></div><p class="storage-note">${t("storage")}</p><button class="reset-settings" data-action="reset-settings">${t("resetSettings")}</button></main>`;
   const card = (p: Player, index: number) =>
     `<button class="player-card ${selected === p.id ? "is-selected" : ""}" data-action="inspect" data-id="${esc(p.id)}" data-featured="${FEATURED_PLAYER_SET.has(p.id)}" aria-label="${esc(p.displayName)}, ${groupName(p.group)}, ${t("overall")} ${overall(p)}${FEATURED_PLAYER_SET.has(p.id) ? `, ${t(p.id === "michael-jordan" ? "rareFeatured" : "featured")}` : ""}"><span class="card-top"><span>${String(index + 1).padStart(2, "0")} / ${t("pickLabel")}</span><span>✦</span></span>${portrait(p)}<span class="card-bottom"><span class="card-role">${p.group} / ${esc(p.countryCode)}</span><strong>${esc(p.displayName)}</strong><span class="card-style">${esc(playerTag(p, settings.locale))}</span><span class="card-stats">${attributes.map((a) => `<span aria-label="${t(a)} ${p.attributes[a]}"><small>${t(`${a}Short` as MessageKey)}</small><b>${p.attributes[a]}</b></span>`).join("")}</span><span class="card-overall"><b>${overall(p)}</b> ${t("overall")}</span><span class="featured-label">${FEATURED_PLAYER_SET.has(p.id) ? t(p.id === "michael-jordan" ? "rareFeatured" : "featured") : ""}</span></span></button>`;
   const draft = () => {
@@ -362,7 +363,12 @@ export function mountApp(root: HTMLElement): void {
       );
       return;
     }
-    if (action === "language") {
+    if (action === "reset-settings") {
+      settings = defaultSettings();
+      const saved = saveSettings(settings);
+      pauseAudio();
+      toast = t(saved ? "settingsReset" : "storageUnavailable");
+    } else if (action === "language") {
       settings.locale = settings.locale === "en" ? "pt-BR" : "en";
       saveOptions();
     } else if (action === "sound") {

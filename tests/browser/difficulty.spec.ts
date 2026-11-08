@@ -182,3 +182,33 @@ test("next challenge is localized and absent after a loss or Impossible title", 
   await load(page, finished(false), "pt-BR");
   await expect(page.locator("[data-action=next-difficulty]")).toHaveCount(0);
 });
+
+test("reset settings restores browser defaults and preserves the saved run", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const run = offerDraft(newRun("reset-settings", "hard", "Quadra 5"));
+  await page.goto("/");
+  const expected = await page.evaluate(() => ({
+    locale: navigator.language.toLowerCase().startsWith("pt") ? "pt-BR" : "en",
+    reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
+  }));
+  await page.evaluate(({ saved, locale, reducedMotion }) => {
+    localStorage.setItem("five-run.run.v1", JSON.stringify(saved));
+    localStorage.setItem("five-run.settings.v1", JSON.stringify({ locale: locale === "en" ? "pt-BR" : "en", muted: false, reducedMotion: !reducedMotion, simulationSpeed: 4, tutorialSeen: true, schemaVersion: 1, difficulty: "impossible", userTeamName: "Another team" }));
+  }, { saved: run, ...expected });
+  await page.reload();
+  const reset = page.locator("[data-action=reset-settings]");
+  await expect(reset).toBeVisible();
+  expect((await reset.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+  await reset.focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator(".toast")).toHaveText(expected.locale === "pt-BR" ? "Configurações restauradas." : "Settings restored.");
+  const state = await page.evaluate(() => ({ settings: JSON.parse(localStorage.getItem("five-run.settings.v1")!), run: JSON.parse(localStorage.getItem("five-run.run.v1")!) }));
+  expect(state.settings).toMatchObject({ ...expected, muted: true, simulationSpeed: 1, tutorialSeen: false, difficulty: "medium", userTeamName: "" });
+  expect(state.run).toEqual(run);
+  await expect(page.locator('input[name="teamName"]')).toHaveValue("");
+  await expect(page.locator('input[name="difficulty"][value="medium"]')).toBeChecked();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.locator("[data-action=continue]").click();
+  await expect(page.locator(".run-identity")).toContainText("Quadra 5");
+  expect(await page.locator(".player-card").evaluateAll(cards => cards.map(card => (card as HTMLElement).dataset.id))).toEqual(run.offeredPlayerIds);
+});

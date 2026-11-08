@@ -280,8 +280,8 @@ export function saveRun(run: Run): boolean {
     return false;
   }
 }
-export function loadSettings(): Settings {
-  const defaults: Settings = {
+export function defaultSettings(): Settings {
+  return {
     locale:
       typeof navigator !== "undefined" &&
       navigator.language.toLowerCase().startsWith("pt")
@@ -297,6 +297,9 @@ export function loadSettings(): Settings {
     tutorialSeen: false,
     schemaVersion: 1,
   };
+}
+export function loadSettings(): Settings {
+  const defaults = defaultSettings();
   try {
     const s = JSON.parse(localStorage.getItem(SETTINGS_KEY) ?? "null");
     if (!s || s.schemaVersion !== 1) return defaults;

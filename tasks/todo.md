@@ -77,7 +77,7 @@ Initial release e832762 published successfully at https://felipebossolani.github
 - [x] Persist and validate the difficulty, immutable during a run.
 - [x] Add accessible PT/EN selection, run labels and share label.
 - [x] Measure controlled win rates and verify save/reload, mobile layout and PWA build.
-- [ ] Commit, publish and validate public release.
+- [x] Commit, publish and validate public release.
 
 ### Review
 Default medium preserves historical snapshot strength; draft odds and player catalog remain shared across all modes. CPU modifiers are explicit game difficulty effects, distinct from historical scouting. Initial tuning: easy -10, medium 0, hard +6, impossible +12, clamped to the existing 40–99 scale. New rules version invalidates older saves with the existing notice.
@@ -85,3 +85,5 @@ Default medium preserves historical snapshot strength; draft odds and player cat
 Additional requested scope: choose a team name before the draft; retain it in the saved attempt and results/share text, and persist the preference for future runs. Accept up to 32 Unicode code points, normalize whitespace/control characters and always render names as text. Calibrated easy modifier is −4 (not the initial −10).
 
 Champion progression requested: after winning, offer the next difficulty with the same five players and team name. Only an explicit action starts a fresh tournament; losses and an Impossible championship do not offer another level. The original result stays shareable until the player accepts the challenge.
+
+Settings reset requested: add a reversible Restore settings action that restores browser-based language/motion and initial sound/speed/difficulty/team-name preferences. Preserve the entire active run and its roster, identity, difficulty, results and presentation cursor.

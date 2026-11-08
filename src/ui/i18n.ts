@@ -1,6 +1,8 @@
 export type Locale = "pt-BR" | "en";
 const messages = {
   "pt-BR": {
+    resetSettings: "Restaurar configurações",
+    settingsReset: "Configurações restauradas.",
     difficulty: "Dificuldade",
     nextDifficulty: "Dificuldade da próxima corrida",
     teamNameLabel: "Nome do time para a próxima corrida",
@@ -266,6 +268,8 @@ const messages = {
     storage: "Clearing browser data removes your progress.",
     storageUnavailable:
       "Storage is unavailable. Your progress may not be recoverable.",
+    resetSettings: "Reset settings",
+    settingsReset: "Settings restored.",
     difficulty: "Difficulty",
     nextDifficulty: "Difficulty for the next run",
     teamNameLabel: "Team name for the next run",
