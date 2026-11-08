@@ -1406,3 +1406,59 @@ h1 {
 .score-team .team-logo-fallback[hidden] {
   display: none;
 }
+
+
+.difficulty-picker {
+  border: 0;
+  padding: 0;
+  margin: 24px 0 16px;
+  min-width: 0;
+}
+.difficulty-picker legend {
+  color: #b8b8aa;
+  font: 700 11px ui-monospace, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.difficulty-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.difficulty-option { position: relative; cursor: pointer; min-width: 0; }
+.difficulty-option input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.difficulty-option span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60px;
+  padding: 8px 10px;
+  border: 1px solid #66716b;
+  background: #202b2b;
+}
+.difficulty-option strong { font-size: 13px; }
+.difficulty-option small { color: #c4c9bd; font-size: 11px; margin-top: 3px; }
+.difficulty-option input:checked + span { border: 2px solid var(--orange); background: #394036; }
+.difficulty-option input:focus-visible + span { outline: 3px solid #ffd17c; outline-offset: 3px; }
+.difficulty-badge {
+  width: fit-content;
+  color: #c8d0c3;
+  font: 700 11px ui-monospace, monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.difficulty-badge strong { color: #ffad7e; margin-left: 6px; }
+.run-identity { max-width: 1200px; margin: 18px auto 0; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 6px 18px; color: #c8d0c3; font: 700 11px ui-monospace, monospace; overflow-wrap: anywhere; }
+.difficulty-adjustment { color: #ffad7e; font-size: 12px; font-weight: 700; }
+@media (max-width: 700px) { .run-identity { padding: 0 18px; } }
+
+.team-name-field { display: grid; gap: 10px; margin: 24px 0 0; }
+.team-name-field > span { color: #b8b8aa; font: 700 11px ui-monospace, monospace; letter-spacing: 0.08em; text-transform: uppercase; }
+.team-name-field input { width: 100%; min-width: 0; min-height: 44px; padding: 10px; background: #202b2b; border: 1px solid #66716b; color: var(--cream); font: inherit; }
+.team-name-field input:focus-visible { outline: 3px solid #ffd17c; outline-offset: 3px; }
+.team-name-field input::placeholder { color: #aab4aa; opacity: 1; }
+
+.next-challenge { margin-top: 24px; padding: 18px; background: #26312f; border: 1px solid #68756a; }
+.next-challenge p { margin: 0 0 14px; color: #d4dccf; line-height: 1.5; font-size: 13px; }
+.next-challenge .button { min-height: 44px; width: 100%; }

@@ -23,3 +23,14 @@ School playtest feedback can be collected manually; this release does not introd
 On Android, open the published HTTPS site in Chrome and use the browser menu's **Install app** or **Add to Home screen**. On iPhone, open it in Safari, tap Share → **Add to Home Screen**, then Add. Menu wording varies by browser version.
 
 Open the game online first and allow its service worker to finish installing. The shell and previously viewed portraits can then load offline; new portraits require a connection and use their initials as a fallback. Official NBA CDN logos require a connection. Progress stays in local browser storage. A new version waits until existing game tabs close before activating; open tabs keep their current version, without forced reloads or clearing progress. Check installation, offline behavior, and updates on actual Android and iPhone devices before relying on them for a session.
+
+
+## Difficulty
+
+Choose a level on the home screen before starting a run. Medium uses historical opponent ratings; Easy reduces them, Hard adds 6 and Impossible adds 12, with attributes bounded to the game's range. The active run retains its chosen level even if the next-run preference changes. Challenge adjustments are gameplay tuning, not historical scouting claims.
+
+
+The optional team name is saved on the device for the next run and copied into that run at its start. Changing the preference later leaves the active run's name unchanged.
+
+
+After winning, the player can choose to enter a fresh tournament at the next difficulty with the same five players and team name. The team is shown for review before play starts; the highest difficulty has no further level.

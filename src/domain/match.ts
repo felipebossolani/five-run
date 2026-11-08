@@ -5,20 +5,18 @@ import type {
   MatchResult,
   MatchEvent,
 } from "./types";
+import { effectivePlayerAttributes } from "./difficulty";
 import { random } from "./random";
 import { ATTRIBUTES, RULES, RULES_VERSION } from "./config";
 export function profile(team: Team, catalog: Player[]): Attributes {
   const roster = team.playerIds.map((id) => catalog.find((p) => p.id === id)!);
   if (roster.length !== 5 || roster.some((p) => !p))
     throw Error("Invalid team");
+  const effective = roster.map((p) => effectivePlayerAttributes(team, p));
   return Object.fromEntries(
     ATTRIBUTES.map((a) => [
       a,
-      roster.reduce(
-        (s, p) =>
-          s + (team.attributeOverrides?.[p.id]?.attributes ?? p.attributes)[a],
-        0,
-      ) / 5,
+      effective.reduce((s, attributes) => s + attributes[a], 0) / 5,
     ]),
   ) as Attributes;
 }
@@ -50,7 +48,7 @@ export function simulateMatch(
         return {
           ...player,
           attributes:
-            t.attributeOverrides?.[id]?.attributes ?? player.attributes,
+            effectivePlayerAttributes(t, player),
         };
       }),
     ]),

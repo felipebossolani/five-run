@@ -36,5 +36,5 @@ test("Should_DrawSevenDistinctSavedHistoricalIdentities_When_CreatingRun", () =>
   first.teams[1].attributeOverrides![
     first.teams[1].playerIds[0]
   ].attributes.defense = 40;
-  assert.deepEqual(original, second.teams[1]);
+  assert.deepEqual(second.teams[1], { ...original, difficultyModifier: 0 });
 });

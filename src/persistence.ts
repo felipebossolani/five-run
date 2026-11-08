@@ -1,3 +1,5 @@
+import { normalizeTeamName } from "./domain/team-name";
+import { DIFFICULTY_MODIFIERS, isDifficulty } from "./domain/difficulty";
 import type { Run, Settings } from "./domain/types";
 import { players, CATALOG_VERSION } from "./content/catalog";
 import { FEATURED_PLAYER_SET } from "./content/featured";
@@ -13,6 +15,9 @@ function validRun(value: unknown): value is Run {
   const stringIds = (a: unknown): a is string[] =>
     Array.isArray(a) && a.every((x) => typeof x === "string");
   if (
+    !isDifficulty(r.difficulty) ||
+    typeof r.userTeamName !== "string" ||
+    r.userTeamName !== normalizeTeamName(r.userTeamName) ||
     typeof r.seed !== "string" ||
     typeof r.id !== "string" ||
     !["draft", "review", "groups", "semifinal", "final", "ended"].includes(
@@ -93,6 +98,9 @@ function validRun(value: unknown): value is Run {
     r.teams.some(
       (t) =>
         typeof t.id !== "string" ||
+        (t.id === "user"
+          ? t.difficultyModifier !== undefined && t.difficultyModifier !== 0
+          : t.difficultyModifier !== DIFFICULTY_MODIFIERS[r.difficulty]) ||
         typeof t.name?.en !== "string" ||
         typeof t.name?.["pt-BR"] !== "string" ||
         typeof t.color !== "string" ||
@@ -106,6 +114,8 @@ function validRun(value: unknown): value is Run {
   const user = r.teams.find((t) => t.id === "user");
   if (
     !user ||
+    (r.userTeamName !== "" &&
+      (user.name.en !== r.userTeamName || user.name["pt-BR"] !== r.userTeamName)) ||
     JSON.stringify(user.playerIds) !== JSON.stringify(r.chosenPlayerIds)
   )
     return false;
@@ -278,6 +288,8 @@ export function loadSettings(): Settings {
         ? "pt-BR"
         : "en",
     muted: true,
+    difficulty: "medium",
+    userTeamName: "",
     reducedMotion:
       typeof matchMedia !== "undefined" &&
       matchMedia("(prefers-reduced-motion: reduce)").matches,
@@ -290,6 +302,8 @@ export function loadSettings(): Settings {
     if (!s || s.schemaVersion !== 1) return defaults;
     return {
       ...defaults,
+      difficulty: isDifficulty(s.difficulty) ? s.difficulty : "medium",
+      userTeamName: normalizeTeamName(s.userTeamName),
       locale: s.locale === "pt-BR" ? "pt-BR" : "en",
       muted: typeof s.muted === "boolean" ? s.muted : true,
       reducedMotion:

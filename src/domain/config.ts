@@ -1,5 +1,5 @@
 import type { Attribute, Group } from "./types";
-export const RULES_VERSION = "5";
+export const RULES_VERSION = "6";
 export const DRAFT_OPTIONS = 6;
 export const ATTRIBUTES: Attribute[] = [
   "shooting",

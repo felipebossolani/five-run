@@ -1,9 +1,11 @@
 import { players, CATALOG_VERSION } from "../content/catalog";
 import { FEATURED_PLAYER_SET, offerWeight } from "../content/featured";
 import { selectHistoricalOpponents } from "./opponents";
-import type { Run, Team, Player, Group, Standing } from "./types";
+import type { Run, Team, Player, Group, Standing, Difficulty } from "./types";
 import { random, shuffle, weightedSample } from "./random";
 import { ATTRIBUTES, WEIGHTS, RULES_VERSION, DRAFT_OPTIONS } from "./config";
+import { normalizeTeamName } from "./team-name";
+import { DIFFICULTY_MODIFIERS, isDifficulty, nextDifficulty } from "./difficulty";
 import { profile, simulateMatch } from "./match";
 export { simulateMatch } from "./match";
 const slots: Group[] = ["G", "G", "F", "F", "C"];
@@ -24,16 +26,24 @@ export function newRun(
   seed = Array.from(crypto.getRandomValues(new Uint32Array(4)), (value) =>
     value.toString(16).padStart(8, "0"),
   ).join(""),
+  difficulty: Difficulty = "medium",
+  userTeamName = "",
 ): Run {
+  if (!isDifficulty(difficulty)) throw Error("Invalid difficulty");
+  const normalizedName = normalizeTeamName(userTeamName);
   const rng = random(`${seed}:opponents`);
   const teams: Team[] = [
     {
       id: "user",
-      name: { "pt-BR": "Seu quinteto", en: "Your five" },
+      name: normalizedName
+        ? { "pt-BR": normalizedName, en: normalizedName }
+        : { "pt-BR": "Seu quinteto", en: "Your five" },
       playerIds: [],
       color: "#ffad42",
     },
-    ...selectHistoricalOpponents(rng, players),
+    ...selectHistoricalOpponents(rng, players).map((team) => ({
+      ...team, difficultyModifier: DIFFICULTY_MODIFIERS[difficulty],
+    })),
   ];
   const ids = shuffle(
       teams.map((t) => t.id),
@@ -43,6 +53,8 @@ export function newRun(
   return {
     id: seed,
     seed,
+    difficulty,
+    userTeamName: normalizedName,
     rulesVersion: RULES_VERSION,
     catalogVersion: CATALOG_VERSION,
     status: "draft",
@@ -61,6 +73,21 @@ export function newRun(
     createdAt: now,
     updatedAt: now,
   };
+}
+export function promoteChampion(input: Run, seed?: string): Run {
+  const next = nextDifficulty(input.difficulty);
+  if (
+    input.status !== "ended" || input.knockout.champion !== "user" ||
+    !next || input.rulesVersion !== RULES_VERSION || input.catalogVersion !== CATALOG_VERSION ||
+    input.draftRound !== 5 || input.chosenPlayerIds.length !== 5
+  ) throw Error("Run cannot be promoted");
+  const run = newRun(seed, next, input.userTeamName);
+  run.status = "review";
+  run.draftRound = 5;
+  run.chosenPlayerIds = [...input.chosenPlayerIds];
+  run.seenPlayerIds = [...input.seenPlayerIds];
+  run.teams[0].playerIds = [...run.chosenPlayerIds];
+  return run;
 }
 export function offerDraft(input: Run): Run {
   const r = clone(input);

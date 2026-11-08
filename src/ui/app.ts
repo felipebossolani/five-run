@@ -1,5 +1,6 @@
 import {
   newRun,
+  promoteChampion,
   offerDraft,
   choosePlayer,
   startTournament,
@@ -11,6 +12,7 @@ import {
 } from "../domain/game";
 import { players } from "../content/catalog";
 import { FEATURED_PLAYER_SET } from "../content/featured";
+import { effectivePlayerAttributes, nextDifficulty } from "../domain/difficulty";
 import {
   loadRun,
   saveRun,
@@ -20,6 +22,7 @@ import {
 } from "../persistence";
 import type {
   Attribute,
+  Difficulty,
   MatchResult,
   Player,
   Run,
@@ -70,7 +73,7 @@ export function mountApp(root: HTMLElement): void {
   const team = (id: string) => run?.teams.find((item) => item.id === id);
   const teamName = (id: string) =>
     id === "user"
-      ? t("userTeam")
+      ? run?.userTeamName || t("userTeam")
       : `${team(id)?.name[settings.locale] || t("noOpponent")}${team(id)?.historical ? ` · ${team(id)!.historical!.year}` : ""}`;
   const teamMark = (
     id: string,
@@ -87,6 +90,13 @@ export function mountApp(root: HTMLElement): void {
       .join("");
     return `<span class="team-logo team-logo-${size}" aria-hidden="true">${officialLogo ? `<img src="${esc(officialLogo)}" alt="" loading="lazy" onload="this.nextElementSibling.hidden=true" onerror="this.style.display='none'">` : ""}<span class="team-logo-fallback">${esc(fallback)}</span></span>`;
   };
+  const difficultyOptions: Difficulty[] = ["easy", "medium", "hard", "impossible"];
+  const difficultyBadge = (label: MessageKey, difficulty: Difficulty) =>
+    `<div class="difficulty-badge">${t(label)} <strong>${t(difficulty)}</strong></div>`;
+  const teamNamePicker = () =>
+    `<label class="team-name-field"><span>${t("teamNameLabel")}</span><input type="text" name="teamName" maxlength="32" placeholder="${esc(t("teamNamePlaceholder"))}" value="${esc(settings.userTeamName ?? "")}" autocomplete="off"></label>`;
+  const difficultyPicker = () =>
+    `<fieldset class="difficulty-picker"><legend>${t("nextDifficulty")}</legend><div class="difficulty-options">${difficultyOptions.map((difficulty) => `<label class="difficulty-option"><input type="radio" name="difficulty" value="${difficulty}" ${difficulty === (settings.difficulty ?? "medium") ? "checked" : ""}><span><strong>${t(difficulty)}</strong><small>${t(`${difficulty}Hint` as MessageKey)}</small></span></label>`).join("")}</div></fieldset>`;
   const groupName = (group: string) =>
     t(group === "G" ? "guard" : group === "F" ? "forward" : "center");
   const persist = () => {
@@ -121,7 +131,7 @@ export function mountApp(root: HTMLElement): void {
   const button = (action: string, label: string, secondary = false) =>
     `<button class="button ${secondary ? "button-secondary" : "button-primary"}" data-action="${action}">${label}<span aria-hidden="true">${secondary ? "" : " ↗"}</span></button>`;
   const home = () =>
-    `<main class="home-screen"><div class="hero"><div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> ${t("arcade")} <span> / </span> 01</div><h1>${t("heroYour")}<br><em>${t("heroFive")}.</em><br>${t("heroYour")}<br>${t("heroRun")}<span class="orange">.</span></h1><p>${t("tagline")}</p><div class="hero-actions">${run ? `${button("continue", t("continue"))}<button class="text-button" data-action="new">${t("playAgain")} →</button>` : button("new", t("play"))}${button("tutorial", t("how"), true)}</div></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="ball"><i></i></div><span class="art-star star-one">✦</span><span class="art-star star-two">✳</span><div class="art-label">${t("fivePlayers")}<br><b>${t("oneTitle")}</b></div><span class="art-number">05</span></div></div><div class="home-footer"><span>${t("footerMotto")}</span><span>EST. 2026</span></div><p class="storage-note">${t("storage")}</p></main>`;
+    `<main class="home-screen"><div class="hero"><div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> ${t("arcade")} <span> / </span> 01</div><h1>${t("heroYour")}<br><em>${t("heroFive")}.</em><br>${t("heroYour")}<br>${t("heroRun")}<span class="orange">.</span></h1><p>${t("tagline")}</p>${teamNamePicker()}${difficultyPicker()}${run ? difficultyBadge("activeDifficulty", run.difficulty) : ""}<div class="hero-actions">${run ? `${button("continue", t("continue"))}<button class="text-button" data-action="new">${t("playAgain")} →</button>` : button("new", t("play"))}${button("tutorial", t("how"), true)}</div></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="ball"><i></i></div><span class="art-star star-one">✦</span><span class="art-star star-two">✳</span><div class="art-label">${t("fivePlayers")}<br><b>${t("oneTitle")}</b></div><span class="art-number">05</span></div></div><div class="home-footer"><span>${t("footerMotto")}</span><span>EST. 2026</span></div><p class="storage-note">${t("storage")}</p></main>`;
   const card = (p: Player, index: number) =>
     `<button class="player-card ${selected === p.id ? "is-selected" : ""}" data-action="inspect" data-id="${esc(p.id)}" data-featured="${FEATURED_PLAYER_SET.has(p.id)}" aria-label="${esc(p.displayName)}, ${groupName(p.group)}, ${t("overall")} ${overall(p)}${FEATURED_PLAYER_SET.has(p.id) ? `, ${t(p.id === "michael-jordan" ? "rareFeatured" : "featured")}` : ""}"><span class="card-top"><span>${String(index + 1).padStart(2, "0")} / ${t("pickLabel")}</span><span>✦</span></span>${portrait(p)}<span class="card-bottom"><span class="card-role">${p.group} / ${esc(p.countryCode)}</span><strong>${esc(p.displayName)}</strong><span class="card-style">${esc(playerTag(p, settings.locale))}</span><span class="card-stats">${attributes.map((a) => `<span aria-label="${t(a)} ${p.attributes[a]}"><small>${t(`${a}Short` as MessageKey)}</small><b>${p.attributes[a]}</b></span>`).join("")}</span><span class="card-overall"><b>${overall(p)}</b> ${t("overall")}</span><span class="featured-label">${FEATURED_PLAYER_SET.has(p.id) ? t(p.id === "michael-jordan" ? "rareFeatured" : "featured") : ""}</span></span></button>`;
   const draft = () => {
@@ -162,14 +172,13 @@ export function mountApp(root: HTMLElement): void {
       (m) => m.homeId === "user" || m.awayId === "user",
     );
     const wins = userResults.filter((m) => m.winnerId === "user").length;
-    return `<main class="content"><div class="section-heading"><div><div class="eyebrow orange">${t("road")}</div><h1>${t("tournament")}<span class="orange">.</span></h1></div><div class="round-badge"><span>${t("record")}</span><b>${wins}<small>–${userResults.length - wins}</small></b></div></div><section class="next-game"><div class="section-label"><span>${t("next")}</span><span>${run.status === "groups" ? `${t("group")} / ${run.groupRound + 1}` : t(run.status === "semifinal" ? "semifinal" : "final")}</span></div><div class="versus"><div>${teamMark("user", "large")}<b>${t("userTeam")}</b></div><strong>VS</strong><div>${teamMark(opponent?.id || "", "large")}<b>${esc(opponent?.name[settings.locale] || t("noOpponent"))}</b></div></div>${
+    return `<main class="content"><div class="section-heading"><div><div class="eyebrow orange">${t("road")}</div><h1>${t("tournament")}<span class="orange">.</span></h1></div><div class="round-badge"><span>${t("record")}</span><b>${wins}<small>–${userResults.length - wins}</small></b></div></div><section class="next-game"><div class="section-label"><span>${t("next")}</span><span>${run.status === "groups" ? `${t("group")} / ${run.groupRound + 1}` : t(run.status === "semifinal" ? "semifinal" : "final")}</span></div><div class="versus"><div>${teamMark("user", "large")}<b>${esc(teamName("user"))}</b></div><strong>VS</strong><div>${teamMark(opponent?.id || "", "large")}<b>${esc(opponent?.name[settings.locale] || t("noOpponent"))}</b></div></div>${
       opponent?.historical
-        ? `<details class="historical-roster"><summary>${t("historicalRoster")} · ${opponent.historical.year}</summary><p>${t("snapshotNotice")}</p><ul>${opponent.playerIds
+        ? `<details class="historical-roster"><summary>${t("historicalRoster")} · ${opponent.historical.year}</summary><p>${t("snapshotNotice")}</p>${opponent.difficultyModifier ? `<p class="difficulty-adjustment">${t("difficultyAdjustment")} ${opponent.difficultyModifier > 0 ? "+" : ""}${opponent.difficultyModifier}</p>` : ""}<ul>${opponent.playerIds
             .map((id) => {
               const p = player(id);
-              const snapshot = opponent.attributeOverrides?.[id];
               return p
-                ? `<li><b>${p.group}</b> · ${esc(p.displayName)} <strong>${overall({ ...p, attributes: snapshot?.attributes ?? p.attributes })} ${t("overall")}</strong></li>`
+                ? `<li><b>${p.group}</b> · ${esc(p.displayName)} <strong>${overall({ ...p, attributes: effectivePlayerAttributes(opponent, p) })} ${t("overall")}</strong></li>`
                 : "";
             })
             .join(
@@ -213,6 +222,7 @@ export function mountApp(root: HTMLElement): void {
   const ending = () => {
     if (!run) return "";
     const won = run.knockout.champion === "user";
+    const next = won ? nextDifficulty(run.difficulty) : null;
     const games = run.results.filter(
       (m) => m.homeId === "user" || m.awayId === "user",
     );
@@ -227,7 +237,7 @@ export function mountApp(root: HTMLElement): void {
     const leader = [...scorers].sort(
       (a, b) => b[1] - a[1] || a[0].localeCompare(b[0]),
     )[0];
-    return `<main class="content end-screen"><div class="end-emblem">${won ? "★" : "✳"}</div><div class="eyebrow orange">${won && victories === 5 && games.length === 5 ? t("perfect") : "FIVE RUN / 01"}</div><h1>${t(won ? "champion" : "eliminated")}</h1><p class="lede">${t(won ? "championText" : "eliminatedText")}</p><div class="record-box"><span>${t("record")}</span><b>${victories} – ${games.length - victories}</b></div>${leader && leader[1] > 0 ? `<div class="end-leader"><span>${t("topScorer")}</span><b>${esc(player(leader[0])?.displayName || "")} · ${leader[1]} ${t("scored")}</b></div>` : ""}<div class="section-label"><span>${t("yourFive")}</span><span>05 / 05</span></div>${roster()}<div class="end-actions">${button("share", t("share"), true)}${button("new", t("again"))}</div></main>`;
+    return `<main class="content end-screen"><div class="end-emblem">${won ? "★" : "✳"}</div><div class="eyebrow orange">${won && victories === 5 && games.length === 5 ? t("perfect") : "FIVE RUN / 01"}</div><h1>${t(won ? "champion" : "eliminated")}</h1><p class="lede">${t(won ? "championText" : "eliminatedText")}</p><div class="record-box"><span>${t("record")}</span><b>${victories} – ${games.length - victories}</b></div>${leader && leader[1] > 0 ? `<div class="end-leader"><span>${t("topScorer")}</span><b>${esc(player(leader[0])?.displayName || "")} · ${leader[1]} ${t("scored")}</b></div>` : ""}<div class="section-label"><span>${t("yourFive")}</span><span>05 / 05</span></div>${roster()}${next ? `<div class="next-challenge"><p>${t("challengeHint")}</p>${button("next-difficulty", t(next === "medium" ? "challengeMedium" : next === "hard" ? "challengeHard" : "challengeImpossible"))}</div>` : ""}<div class="end-actions">${button("share", t("share"), true)}${button("new", t("again"))}</div></main>`;
   };
   const playerModal = () => {
     const p = selected && player(selected);
@@ -262,7 +272,7 @@ export function mountApp(root: HTMLElement): void {
       settings.reducedMotion,
     );
     const match = screen === "game" ? pendingMatch() : undefined;
-    root.innerHTML = `${header()}${screen === "home" ? home() : match ? matchView(match) : !run ? home() : run.status === "draft" ? draft() : run.status === "review" ? review() : run.status === "ended" ? ending() : tournament()}<footer class="site-footer"><span>FIVE RUN © 2026</span><button data-action="motion">${t("motion")}: ${t(settings.reducedMotion ? "on" : "off")}</button></footer>${toast || getStorageNotice() ? `<div class="toast" role="status">${esc(toast || t(getStorageNotice() === "incompatible" ? "incompatible" : getStorageNotice() === "corrupt" ? "corrupt" : "storageUnavailable"))}</div>` : ""}${modalView()}`;
+    root.innerHTML = `${header()}${screen === "game" && run ? `<div class="run-identity">${difficultyBadge("difficulty", run.difficulty)}<span>${esc(teamName("user"))}</span></div>` : ""}${screen === "home" ? home() : match ? matchView(match) : !run ? home() : run.status === "draft" ? draft() : run.status === "review" ? review() : run.status === "ended" ? ending() : tournament()}<footer class="site-footer"><span>FIVE RUN © 2026</span><button data-action="motion">${t("motion")}: ${t(settings.reducedMotion ? "on" : "off")}</button></footer>${toast || getStorageNotice() ? `<div class="toast" role="status">${esc(toast || t(getStorageNotice() === "incompatible" ? "incompatible" : getStorageNotice() === "corrupt" ? "corrupt" : "storageUnavailable"))}</div>` : ""}${modalView()}`;
   };
   const schedule = () => {
     clearTimeout(timer);
@@ -294,7 +304,7 @@ export function mountApp(root: HTMLElement): void {
     );
   };
   const begin = () => {
-    run = offerDraft(newRun());
+    run = offerDraft(newRun(undefined, settings.difficulty ?? "medium", settings.userTeamName ?? ""));
     persist();
     selected = null;
     shownEvents = 0;
@@ -302,6 +312,20 @@ export function mountApp(root: HTMLElement): void {
     screen = "game";
     sound("electronic", settings.muted);
   };
+  root.addEventListener("input", (event) => {
+    const input = event.target;
+    if (input instanceof HTMLInputElement && input.name === "teamName") {
+      settings.userTeamName = input.value;
+      saveOptions();
+    }
+  });
+  root.addEventListener("change", (event) => {
+    const input = event.target;
+    if (input instanceof HTMLInputElement && input.name === "difficulty" && difficultyOptions.includes(input.value as Difficulty)) {
+      settings.difficulty = input.value as Difficulty;
+      saveOptions();
+    }
+  });
   root.addEventListener("click", async (event) => {
     const target = (event.target as HTMLElement).closest<HTMLElement>(
       "[data-action]",
@@ -359,6 +383,16 @@ export function mountApp(root: HTMLElement): void {
     } else if (action === "new") {
       if (run && run.status !== "ended") modal = "abandon";
       else begin();
+    } else if (action === "next-difficulty" && run && run.status === "ended" && run.knockout.champion === "user" && nextDifficulty(run.difficulty)) {
+      busy = true;
+      run = promoteChampion(run);
+      persist();
+      settings.difficulty = run.difficulty;
+      saveOptions();
+      selected = null;
+      shownEvents = 0;
+      screen = "game";
+      busy = false;
     } else if (action === "start-new") begin();
     else if (action === "tutorial") modal = "tutorial";
     else if (action === "close-modal") {
@@ -413,7 +447,7 @@ export function mountApp(root: HTMLElement): void {
         (m) => m.homeId === "user" || m.awayId === "user",
       );
       const w = games.filter((m) => m.winnerId === "user").length;
-      const text = `${t(run.knockout.champion === "user" ? "shareChampion" : "shareEliminated")}\n${t("shareRecord")}: ${w}–${games.length - w}\n${t("shareRoster")}: ${run.chosenPlayerIds
+      const text = `${t(run.knockout.champion === "user" ? "shareChampion" : "shareEliminated")}\n${t("difficulty")}: ${t(run.difficulty)}\n${t("shareTeam")}: ${teamName("user")}\n${t("shareRecord")}: ${w}–${games.length - w}\n${t("shareRoster")}: ${run.chosenPlayerIds
         .map((id) => player(id)?.displayName)
         .filter(Boolean)
         .join(", ")}

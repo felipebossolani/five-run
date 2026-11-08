@@ -1,3 +1,4 @@
+export type Difficulty = "easy" | "medium" | "hard" | "impossible";
 export type Locale = "pt-BR" | "en";
 export type Group = "G" | "F" | "C";
 export type Attribute =
@@ -39,6 +40,7 @@ export interface Player {
   catalogVersion: string;
 }
 export interface Team {
+  difficultyModifier?: number;
   id: string;
   name: Record<Locale, string>;
   playerIds: string[];
@@ -87,6 +89,8 @@ export interface Standing {
   difference: number;
 }
 export interface Run {
+  userTeamName: string;
+  difficulty: Difficulty;
   id: string;
   seed: string;
   rulesVersion: string;
@@ -108,6 +112,8 @@ export interface Run {
   updatedAt: string;
 }
 export interface Settings {
+  userTeamName?: string;
+  difficulty?: Difficulty;
   locale: Locale;
   muted: boolean;
   reducedMotion: boolean;

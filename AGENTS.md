@@ -12,3 +12,5 @@ Commands: `npm ci`, `npm run dev`, `npm run check`, `npm test`, `npm run balance
 One owner per file. No shell chaining, unrelated refactors, secrets, deployment or license selection. Ratings are editorial; source facts honestly. Record art provenance in `docs/assets.md`. Record validation and remaining human review in tasks/todo.md.
 
 `docs/prd/FIVE-RUN-DRAFT-v0.7.md` supersedes draft exposure weights and Jordan product ratings for new rules5/catalog4 runs.
+
+Latest amendments: `docs/prd/FIVE-RUN-DRAFT-v0.7.md` tunes named-player exposure/Jordan overall; `docs/prd/FIVE-RUN-DIFFICULTY-v0.8.md` adds four immutable run difficulties, team names and champion promotion with the same quintet. CPU difficulty modifiers are gameplay effects separate from historical scouting snapshots.

@@ -70,3 +70,18 @@ Felipe approved both artworks and authorized commit, push and GitHub Pages publi
 
 ### Review
 Initial release e832762 published successfully at https://felipebossolani.github.io/five-run/. Mobile Chromium smoke: six portraits loaded, same offers after reload, no horizontal overflow or page errors; Open Graph image returns 200. PWA subsequently published from c42d75d; public HTTPS browser smoke confirmed standalone manifest, active controller and identical saved offers after offline reload. Physical-device installation remains a manual check.
+
+
+## Difficulty modes — 2026-11-08
+- [x] Add easy/medium/hard/impossible contracts and deterministic opponent modifiers.
+- [x] Persist and validate the difficulty, immutable during a run.
+- [x] Add accessible PT/EN selection, run labels and share label.
+- [x] Measure controlled win rates and verify save/reload, mobile layout and PWA build.
+- [ ] Commit, publish and validate public release.
+
+### Review
+Default medium preserves historical snapshot strength; draft odds and player catalog remain shared across all modes. CPU modifiers are explicit game difficulty effects, distinct from historical scouting. Initial tuning: easy -10, medium 0, hard +6, impossible +12, clamped to the existing 40–99 scale. New rules version invalidates older saves with the existing notice.
+
+Additional requested scope: choose a team name before the draft; retain it in the saved attempt and results/share text, and persist the preference for future runs. Accept up to 32 Unicode code points, normalize whitespace/control characters and always render names as text. Calibrated easy modifier is −4 (not the initial −10).
+
+Champion progression requested: after winning, offer the next difficulty with the same five players and team name. Only an explicit action starts a fresh tournament; losses and an Impossible championship do not offer another level. The original result stays shareable until the player accepts the challenge.
