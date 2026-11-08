@@ -59,3 +59,14 @@ Weighted v0.7 review: rules5/catalog4 built successfully; check and 21 tests pas
 
 ### Review
 Felipe approved both artworks and authorized commit, push and GitHub Pages publication on 2026-11-08. Deployment verification is in progress; no paid service or project license selection.
+
+
+## Installable school playtest — 2026-11-08
+- [x] Commit and push the approved initial school release.
+- [x] Enable GitHub Pages and verify the public game, portraits, reload and sharing cover.
+- [x] Add manifest, service worker and scoped/versioned app-shell caching.
+- [x] Verify installation metadata and offline saved-draft restoration.
+- [ ] Commit, publish and verify the PWA at the public URL.
+
+### Review
+Initial release e832762 published successfully at https://felipebossolani.github.io/five-run/. Mobile Chromium smoke: six portraits loaded, same offers after reload, no horizontal overflow or page errors; Open Graph image returns 200. PWA requested subsequently, implementation in progress.
