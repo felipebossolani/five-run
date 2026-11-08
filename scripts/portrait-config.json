@@ -1,0 +1,4002 @@
+{
+  "michael-jordan": [
+    "G",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "kobe-bryant": [
+    "G",
+    "medium",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "magic-johnson": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "stephen-curry": [
+    "G",
+    "lightbrown",
+    "curl",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "oscar-robertson": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jerry-west": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "dwyane-wade": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "allen-iverson": [
+    "G",
+    "medium",
+    "cornrows",
+    "goatee",
+    "headband",
+    "#c65f58"
+  ],
+  "john-stockton": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "steve-nash": [
+    "G",
+    "light",
+    "long",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jason-kidd": [
+    "G",
+    "lightbrown",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "chris-paul": [
+    "G",
+    "dark",
+    "buzz",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "isiah-thomas": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "walt-frazier": [
+    "G",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "gary-payton": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "james-harden": [
+    "G",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "damian-lillard": [
+    "G",
+    "medium",
+    "buzz",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "russell-westbrook": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "clyde-drexler": [
+    "G",
+    "dark",
+    "bald",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "ray-allen": [
+    "G",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "reggie-miller": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "bob-cousy": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "pete-maravich": [
+    "G",
+    "light",
+    "long",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "nate-archibald": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "dave-bing": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "hal-greer": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#8d78a8"
+  ],
+  "bill-sharman": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#8d78a8"
+  ],
+  "lenny-wilkens": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#7192b8"
+  ],
+  "earl-monroe": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#bf9954"
+  ],
+  "manu-ginobili": [
+    "G",
+    "light",
+    "darkshort",
+    "stubble",
+    "",
+    "#c65f58"
+  ],
+  "tony-parker": [
+    "G",
+    "lightbrown",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "chauncey-billups": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "lebron-james": [
+    "F",
+    "dark",
+    "buzz",
+    "fullbeard",
+    "headband",
+    "#619c9e"
+  ],
+  "larry-bird": [
+    "F",
+    "light",
+    "blond",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "kevin-durant": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "tim-duncan": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "kevin-garnett": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "charles-barkley": [
+    "F",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "karl-malone": [
+    "F",
+    "dark",
+    "buzz",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "dirk-nowitzki": [
+    "F",
+    "light",
+    "blondlong",
+    "stubble",
+    "",
+    "#619c9e"
+  ],
+  "giannis-antetokounmpo": [
+    "F",
+    "dark",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "julius-erving": [
+    "F",
+    "dark",
+    "afro",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "scottie-pippen": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "kawhi-leonard": [
+    "F",
+    "dark",
+    "cornrows",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "elgin-baylor": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "rick-barry": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "bob-pettit": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "elvin-hayes": [
+    "F",
+    "dark",
+    "bald",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "john-havlicek": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "paul-pierce": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "carmelo-anthony": [
+    "F",
+    "medium",
+    "cornrows",
+    "goatee",
+    "headband",
+    "#619c9e"
+  ],
+  "kevin-mchale": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#8d78a8"
+  ],
+  "dominique-wilkins": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "james-worthy": [
+    "F",
+    "dark",
+    "bald",
+    "mustache",
+    "goggles",
+    "#619c9e"
+  ],
+  "dennis-rodman": [
+    "F",
+    "dark",
+    "blondbuzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "anthony-davis": [
+    "F",
+    "dark",
+    "short",
+    "fullbeard",
+    "unibrow",
+    "#619c9e"
+  ],
+  "chris-webber": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "chris-bosh": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#8d78a8"
+  ],
+  "pau-gasol": [
+    "F",
+    "light",
+    "long",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "toni-kukoc": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#7192b8"
+  ],
+  "vince-carter": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#7192b8"
+  ],
+  "grant-hill": [
+    "F",
+    "medium",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "bernard-king": [
+    "F",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "alex-english": [
+    "F",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "kareem-abdul-jabbar": [
+    "C",
+    "dark",
+    "bald",
+    "mustache",
+    "goggles",
+    "#bf9954"
+  ],
+  "wilt-chamberlain": [
+    "C",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#bf9954"
+  ],
+  "bill-russell": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "shaquille-o-neal": [
+    "C",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "hakeem-olajuwon": [
+    "C",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "david-robinson": [
+    "C",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "patrick-ewing": [
+    "C",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "moses-malone": [
+    "C",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "george-mikan": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "goggles",
+    "#bf9954"
+  ],
+  "bill-walton": [
+    "C",
+    "light",
+    "redlong",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "dave-cowens": [
+    "C",
+    "light",
+    "red",
+    "mustache",
+    "",
+    "#bf9954"
+  ],
+  "willis-reed": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "wes-unseld": [
+    "C",
+    "dark",
+    "bald",
+    "mustache",
+    "",
+    "#bf9954"
+  ],
+  "nate-thurmond": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "robert-parish": [
+    "C",
+    "dark",
+    "bald",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "dwight-howard": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "george-gervin": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "joe-dumars": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "tracy-mcgrady": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "sidney-moncrief": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#8d78a8"
+  ],
+  "tim-hardaway": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#7192b8"
+  ],
+  "mitch-richmond": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#aa7253"
+  ],
+  "gail-goodrich": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#78a16f"
+  ],
+  "david-thompson": [
+    "G",
+    "dark",
+    "afro",
+    "none",
+    "",
+    "#b7667c"
+  ],
+  "jo-jo-white": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#8e91a4"
+  ],
+  "calvin-murphy": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#a68d62"
+  ],
+  "paul-westphal": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "sam-jones": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "paul-arizin": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "billy-cunningham": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#8d78a8"
+  ],
+  "bob-mcadoo": [
+    "F",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#7192b8"
+  ],
+  "adrian-dantley": [
+    "F",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#aa7253"
+  ],
+  "george-mcginnis": [
+    "F",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#78a16f"
+  ],
+  "chris-mullin": [
+    "F",
+    "light",
+    "buzz",
+    "none",
+    "",
+    "#b7667c"
+  ],
+  "dolph-schayes": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#8e91a4"
+  ],
+  "george-yardley": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#a68d62"
+  ],
+  "connie-hawkins": [
+    "F",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "spencer-haywood": [
+    "F",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "shawn-kemp": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "amar-e-stoudemire": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "goggles",
+    "#8d78a8"
+  ],
+  "yao-ming": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#7192b8"
+  ],
+  "dikembe-mutombo": [
+    "C",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#aa7253"
+  ],
+  "alonzo-mourning": [
+    "C",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#78a16f"
+  ],
+  "bob-lanier": [
+    "C",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#b7667c"
+  ],
+  "artis-gilmore": [
+    "C",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#8e91a4"
+  ],
+  "bill-laimbeer": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#a68d62"
+  ],
+  "kyrie-irving": [
+    "G",
+    "medium",
+    "short",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "derrick-rose": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "devin-booker": [
+    "G",
+    "lightbrown",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "donovan-mitchell": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "ja-morant": [
+    "G",
+    "dark",
+    "braids",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "shai-gilgeous-alexander": [
+    "G",
+    "dark",
+    "cornrows",
+    "goatee",
+    "headband",
+    "#c65f58"
+  ],
+  "kemba-walker": [
+    "G",
+    "dark",
+    "bald",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "isaiah-thomas": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "headband",
+    "#c65f58"
+  ],
+  "gilbert-arenas": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "john-wall": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "kyle-lowry": [
+    "G",
+    "dark",
+    "buzz",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "bradley-beal": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "headband",
+    "#c65f58"
+  ],
+  "paul-george": [
+    "F",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "jimmy-butler": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "headband",
+    "#619c9e"
+  ],
+  "jayson-tatum": [
+    "F",
+    "lightbrown",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "kevin-love": [
+    "F",
+    "light",
+    "darkshort",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "lamarcus-aldridge": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "blake-griffin": [
+    "F",
+    "lightbrown",
+    "blond",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "shawn-marion": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "pascal-siakam": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "headband",
+    "#619c9e"
+  ],
+  "khris-middleton": [
+    "F",
+    "dark",
+    "bald",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "paul-millsap": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "elton-brand": [
+    "F",
+    "dark",
+    "bald",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "jermaine-o-neal": [
+    "F",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "nikola-jokic": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "joel-embiid": [
+    "C",
+    "dark",
+    "short",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "rudy-gobert": [
+    "C",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "demarcus-cousins": [
+    "C",
+    "dark",
+    "short",
+    "fullbeard",
+    "headband",
+    "#bf9954"
+  ],
+  "al-horford": [
+    "C",
+    "medium",
+    "buzz",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "bam-adebayo": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "headband",
+    "#bf9954"
+  ],
+  "ron-harper": [
+    "G",
+    "dark",
+    "bald",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "luc-longley": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "klay-thompson": [
+    "G",
+    "lightbrown",
+    "curl",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "draymond-green": [
+    "F",
+    "dark",
+    "buzz",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "zaza-pachulia": [
+    "C",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "derek-fisher": [
+    "G",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "rick-fox": [
+    "F",
+    "medium",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "horace-grant": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "goggles",
+    "#619c9e"
+  ],
+  "dennis-johnson": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "danny-ainge": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "tiago-splitter": [
+    "C",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "mario-chalmers": [
+    "G",
+    "medium",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "chris-andersen": [
+    "C",
+    "light",
+    "buzz",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "kenny-smith": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "vernon-maxwell": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "robert-horry": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "otis-thorpe": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "richard-hamilton": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "headband",
+    "#c65f58"
+  ],
+  "tayshaun-prince": [
+    "F",
+    "medium",
+    "buzz",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "rasheed-wallace": [
+    "F",
+    "dark",
+    "buzz",
+    "fullbeard",
+    "headband",
+    "#619c9e"
+  ],
+  "ben-wallace": [
+    "C",
+    "dark",
+    "afro",
+    "goatee",
+    "headband",
+    "#bf9954"
+  ],
+  "maurice-cheeks": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "andrew-toney": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "bobby-jones": [
+    "F",
+    "light",
+    "blond",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "dick-barnett": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "bill-bradley": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "dave-debusschere": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "byron-scott": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "a-c-green": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "jon-mcglocklin": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "bob-dandridge": [
+    "F",
+    "dark",
+    "afro",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "greg-smith": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "pepe-sanchez": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "andres-nocioni": [
+    "F",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "luis-scola": [
+    "F",
+    "lightbrown",
+    "long",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "fabricio-oberto": [
+    "C",
+    "light",
+    "long",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "jose-calderon": [
+    "G",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "juan-carlos-navarro": [
+    "G",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "jorge-garbajosa": [
+    "F",
+    "light",
+    "curl",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "marc-gasol": [
+    "C",
+    "light",
+    "darkshort",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "drazen-petrovic": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "zarko-paspalj": [
+    "F",
+    "light",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "vlade-divac": [
+    "C",
+    "light",
+    "darkshort",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "sarunas-marciulionis": [
+    "G",
+    "light",
+    "long",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "arvydas-sabonis": [
+    "C",
+    "light",
+    "darkshort",
+    "mustache",
+    "",
+    "#bf9954"
+  ],
+  "rolando-ferreira": [
+    "C",
+    "light",
+    "curl",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "ricky-rubio": [
+    "G",
+    "light",
+    "long",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "boniface-ndong": [
+    "C",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "luka-doncic": [
+    "G",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "rudy-fernandez": [
+    "G",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "trey-thompkins": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "walter-tavares": [
+    "C",
+    "dark",
+    "curl",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "milos-teodosic": [
+    "G",
+    "light",
+    "long",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "nando-de-colo": [
+    "G",
+    "light",
+    "darkshort",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "viktor-khryapa": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "bogdan-bogdanovic": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "luigi-datome": [
+    "F",
+    "light",
+    "darkshort",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "ekpe-udoh": [
+    "C",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "sarunas-jasikevicius": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "anthony-parker": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "maceo-baston": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "vassilis-spanoulis": [
+    "G",
+    "light",
+    "bald",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "antonis-fotsis": [
+    "F",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "mike-batiste": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "nikola-pekovic": [
+    "C",
+    "light",
+    "buzz",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "trae-young": [
+    "G",
+    "medium",
+    "curl",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "tyrese-haliburton": [
+    "G",
+    "medium",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "anthony-edwards": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "rajon-rondo": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "deron-williams": [
+    "G",
+    "lightbrown",
+    "buzz",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "mike-conley": [
+    "G",
+    "dark",
+    "short",
+    "fullbeard",
+    "headband",
+    "#c65f58"
+  ],
+  "baron-davis": [
+    "G",
+    "dark",
+    "short",
+    "fullbeard",
+    "headband",
+    "#c65f58"
+  ],
+  "jrue-holiday": [
+    "G",
+    "dark",
+    "braids",
+    "none",
+    "headband",
+    "#c65f58"
+  ],
+  "jamal-crawford": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "zach-lavine": [
+    "G",
+    "lightbrown",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "steve-francis": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "anfernee-hardaway": [
+    "G",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "julius-randle": [
+    "F",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "demar-derozan": [
+    "F",
+    "dark",
+    "braids",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "brandon-ingram": [
+    "F",
+    "dark",
+    "braids",
+    "fullbeard",
+    "headband",
+    "#619c9e"
+  ],
+  "gordon-hayward": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "carlos-boozer": [
+    "F",
+    "medium",
+    "bald",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "metta-world-peace": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "david-west": [
+    "F",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "rashard-lewis": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "antawn-jamison": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "zach-randolph": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "headband",
+    "#619c9e"
+  ],
+  "andre-iguodala": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "jaylen-brown": [
+    "F",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "al-jefferson": [
+    "C",
+    "dark",
+    "short",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "joakim-noah": [
+    "C",
+    "lightbrown",
+    "curl",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "tyson-chandler": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "deandre-jordan": [
+    "C",
+    "dark",
+    "braids",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "brook-lopez": [
+    "C",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "andrew-bynum": [
+    "C",
+    "medium",
+    "afro",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "mookie-blaylock": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "damon-stoudamire": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "nick-van-exel": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "sam-cassell": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "mark-jackson": [
+    "G",
+    "lightbrown",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "mark-price": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "kevin-johnson": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "tim-hardaway-jr": [
+    "G",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "kirk-hinrich": [
+    "G",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "ricky-davis": [
+    "G",
+    "dark",
+    "braids",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "jamal-murray": [
+    "G",
+    "lightbrown",
+    "curl",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "darius-garland": [
+    "G",
+    "dark",
+    "braids",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "mikal-bridges": [
+    "F",
+    "dark",
+    "buzz",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "jaren-jackson-jr": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "aaron-gordon": [
+    "F",
+    "lightbrown",
+    "braids",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "michael-porter-jr": [
+    "F",
+    "medium",
+    "curl",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "brandon-miller": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "paolo-banchero": [
+    "F",
+    "medium",
+    "braids",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "jalen-williams": [
+    "F",
+    "dark",
+    "braids",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "scottie-barnes": [
+    "F",
+    "dark",
+    "braids",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "evan-mobley": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "franz-wagner": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "lauri-markkanen": [
+    "F",
+    "light",
+    "blond",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "nicolas-batum": [
+    "F",
+    "medium",
+    "buzz",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "jarrett-allen": [
+    "C",
+    "dark",
+    "afro",
+    "goatee",
+    "headband",
+    "#bf9954"
+  ],
+  "nikola-vucevic": [
+    "C",
+    "light",
+    "darkshort",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "domantas-sabonis": [
+    "C",
+    "light",
+    "blond",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "deandre-ayton": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "clint-capela": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "steven-adams": [
+    "C",
+    "lightbrown",
+    "braids",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "deaaron-fox": [
+    "G",
+    "dark",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "jalen-brunson": [
+    "G",
+    "dark",
+    "braids",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "tyrese-maxey": [
+    "G",
+    "dark",
+    "braids",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jalen-green": [
+    "G",
+    "medium",
+    "braids",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "desmond-bane": [
+    "G",
+    "medium",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "cj-mccollum": [
+    "G",
+    "dark",
+    "buzz",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "fred-vanvleet": [
+    "G",
+    "lightbrown",
+    "curl",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "brandon-roy": [
+    "G",
+    "medium",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "derek-harper": [
+    "G",
+    "dark",
+    "buzz",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "jeff-hornacek": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jeff-teague": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "mike-bibby": [
+    "G",
+    "lightbrown",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "boris-diaw": [
+    "F",
+    "dark",
+    "buzz",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "rui-hachimura": [
+    "F",
+    "medium",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "danilo-gallinari": [
+    "F",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "dillon-brooks": [
+    "F",
+    "medium",
+    "buzz",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "cedi-osman": [
+    "F",
+    "light",
+    "curl",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "hedo-turkoglu": [
+    "F",
+    "light",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "nemanja-bjelica": [
+    "F",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "dario-saric": [
+    "F",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "bojan-bogdanovic": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "mario-hezonja": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "david-lee": [
+    "F",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "glen-rice": [
+    "F",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "jusuf-nurkic": [
+    "C",
+    "light",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "kristaps-porzingis": [
+    "C",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "roy-hibbert": [
+    "C",
+    "dark",
+    "short",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "zydrunas-ilgauskas": [
+    "C",
+    "light",
+    "bald",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "jonas-valanciunas": [
+    "C",
+    "light",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "victor-wembanyama": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "jason-williams": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "andre-miller": [
+    "G",
+    "medium",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "kevin-martin": [
+    "G",
+    "lightbrown",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "michael-redd": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "eddie-jones": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jameer-nelson": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "goran-dragic": [
+    "G",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "michael-finley": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "latrell-sprewell": [
+    "G",
+    "dark",
+    "braids",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jason-terry": [
+    "G",
+    "dark",
+    "bald",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "monta-ellis": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "lou-williams": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "detlef-schrempf": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "shareef-abdur-rahim": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "kenyon-martin": [
+    "F",
+    "medium",
+    "buzz",
+    "goatee",
+    "headband",
+    "#619c9e"
+  ],
+  "kyle-anderson": [
+    "F",
+    "medium",
+    "curl",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "larry-johnson": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "juwan-howard": [
+    "F",
+    "medium",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "antoine-walker": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "lamar-odom": [
+    "F",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "gerald-wallace": [
+    "F",
+    "dark",
+    "braids",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "danny-granger": [
+    "F",
+    "medium",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "caron-butler": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "luol-deng": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "rik-smits": [
+    "C",
+    "light",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "mark-eaton": [
+    "C",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "brad-miller": [
+    "C",
+    "light",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "mehmet-okur": [
+    "C",
+    "light",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "jack-sikma": [
+    "C",
+    "light",
+    "curl",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "manute-bol": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "kyle-korver": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "brent-barry": [
+    "G",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "mike-miller": [
+    "G",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "hersey-hawkins": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "dan-majerle": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "dale-ellis": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "reggie-theus": [
+    "G",
+    "medium",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "nick-anderson": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "bobby-jackson": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "eric-gordon": [
+    "G",
+    "medium",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "dejounte-murray": [
+    "G",
+    "medium",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "jordan-clarkson": [
+    "G",
+    "medium",
+    "braids",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "shane-battier": [
+    "F",
+    "medium",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "josh-smith": [
+    "F",
+    "dark",
+    "buzz",
+    "fullbeard",
+    "headband",
+    "#619c9e"
+  ],
+  "kenny-walker": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "tom-chambers": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "kiki-vandeweghe": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "mark-aguirre": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "jamal-wilkes": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "cedric-maxwell": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "buck-williams": [
+    "F",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "charles-oakley": [
+    "F",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "larry-nance": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "derrick-coleman": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "shawn-bradley": [
+    "C",
+    "light",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "chris-kaman": [
+    "C",
+    "light",
+    "bald",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "robert-williams-iii": [
+    "C",
+    "dark",
+    "braids",
+    "shortbeard",
+    "headband",
+    "#bf9954"
+  ],
+  "mitchell-robinson": [
+    "C",
+    "dark",
+    "short",
+    "fullbeard",
+    "headband",
+    "#bf9954"
+  ],
+  "walker-kessler": [
+    "C",
+    "light",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "alperen-sengun": [
+    "C",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "jordan-poole": [
+    "G",
+    "medium",
+    "curl",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "anfernee-simons": [
+    "G",
+    "medium",
+    "curl",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "tyler-herro": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "headband",
+    "#c65f58"
+  ],
+  "austin-reaves": [
+    "G",
+    "light",
+    "short",
+    "none",
+    "headband",
+    "#c65f58"
+  ],
+  "derrick-white": [
+    "G",
+    "dark",
+    "bald",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "stephon-marbury": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "kenny-anderson": [
+    "G",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "rod-strickland": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "terrell-brandon": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jalen-suggs": [
+    "G",
+    "lightbrown",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "devin-harris": [
+    "G",
+    "medium",
+    "buzz",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "john-starks": [
+    "G",
+    "medium",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "cliff-robinson": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "terry-cummings": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "antonio-mcdyess": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "jerami-grant": [
+    "F",
+    "dark",
+    "short",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "jalen-johnson": [
+    "F",
+    "medium",
+    "afro",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "herb-jones": [
+    "F",
+    "dark",
+    "braids",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "og-anunoby": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "keldon-johnson": [
+    "F",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "kyle-kuzma": [
+    "F",
+    "medium",
+    "short",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "andrew-wiggins": [
+    "F",
+    "dark",
+    "curl",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "lamar-stevens": [
+    "F",
+    "medium",
+    "braids",
+    "fullbeard",
+    "headband",
+    "#619c9e"
+  ],
+  "robert-covington": [
+    "F",
+    "dark",
+    "braids",
+    "goatee",
+    "headband",
+    "#619c9e"
+  ],
+  "wendell-carter-jr": [
+    "C",
+    "medium",
+    "buzz",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "jakob-poeltl": [
+    "C",
+    "light",
+    "short",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "ivica-zubac": [
+    "C",
+    "light",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "kevon-looney": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "nic-claxton": [
+    "C",
+    "dark",
+    "braids",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "mason-plumlee": [
+    "C",
+    "light",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "joe-johnson": [
+    "G",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "alvin-robertson": [
+    "G",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "rolando-blackman": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "victor-oladipo": [
+    "G",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "ben-simmons": [
+    "G",
+    "lightbrown",
+    "short",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "d-angelo-russell": [
+    "G",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#c65f58"
+  ],
+  "allan-houston": [
+    "G",
+    "medium",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "jerry-stackhouse": [
+    "G",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "terry-porter": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "fat-lever": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "walter-davis": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "jeff-malone": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "vin-baker": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "peja-stojakovic": [
+    "F",
+    "light",
+    "darkshort",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "glenn-robinson": [
+    "F",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "sean-elliott": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "danny-manning": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "zion-williamson": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "josh-howard": [
+    "F",
+    "dark",
+    "buzz",
+    "none",
+    "headband",
+    "#619c9e"
+  ],
+  "andrei-kirilenko": [
+    "F",
+    "light",
+    "blondlong",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "jamal-mashburn": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "wally-szczerbiak": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "anthony-mason": [
+    "F",
+    "dark",
+    "bald",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "antonio-davis": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "brad-daugherty": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "karl-anthony-towns": [
+    "C",
+    "lightbrown",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "ralph-sampson": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "andre-drummond": [
+    "C",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "kevin-duckworth": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "jamaal-magloire": [
+    "C",
+    "dark",
+    "buzz",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "dick-mcguire": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "lamelo-ball": [
+    "G",
+    "lightbrown",
+    "curl",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "mo-williams": [
+    "G",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "dana-barros": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "b-j-armstrong": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "reggie-lewis": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "michael-adams": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "ricky-pierce": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "doc-rivers": [
+    "G",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "sleepy-floyd": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "norm-nixon": [
+    "G",
+    "lightbrown",
+    "short",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "michael-ray-richardson": [
+    "G",
+    "dark",
+    "short",
+    "shortbeard",
+    "",
+    "#c65f58"
+  ],
+  "dale-davis": [
+    "F",
+    "dark",
+    "short",
+    "fullbeard",
+    "",
+    "#619c9e"
+  ],
+  "jayson-williams": [
+    "F",
+    "medium",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "tom-gugliotta": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "chris-gatling": [
+    "F",
+    "medium",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "christian-laettner": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "tyrone-hill": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "tom-van-arsdale": [
+    "F",
+    "light",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "kevin-willis": [
+    "F",
+    "dark",
+    "buzz",
+    "goatee",
+    "",
+    "#619c9e"
+  ],
+  "xavier-mcdaniel": [
+    "F",
+    "dark",
+    "bald",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "marques-johnson": [
+    "F",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "calvin-natt": [
+    "F",
+    "dark",
+    "afro",
+    "shortbeard",
+    "",
+    "#619c9e"
+  ],
+  "kelly-tripucka": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "theo-ratliff": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "james-donaldson": [
+    "C",
+    "lightbrown",
+    "short",
+    "fullbeard",
+    "",
+    "#bf9954"
+  ],
+  "joe-barry-carroll": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "jeff-ruland": [
+    "C",
+    "light",
+    "darkshort",
+    "mustache",
+    "",
+    "#bf9954"
+  ],
+  "neil-johnston": [
+    "C",
+    "light",
+    "bald",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "clyde-lovellette": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "rickey-green": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "otis-birdsong": [
+    "G",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "jim-paxson": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "gus-williams": [
+    "G",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "slater-martin": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "richie-guerin": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "gene-shue": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "phil-ford": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "world-b-free": [
+    "G",
+    "medium",
+    "bald",
+    "goatee",
+    "",
+    "#c65f58"
+  ],
+  "phil-smith": [
+    "G",
+    "dark",
+    "afro",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "randy-smith": [
+    "G",
+    "dark",
+    "afro",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "phil-chenier": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jerry-lucas": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "gus-johnson": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "tom-heinsohn": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "maurice-stokes": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "bob-love": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "jack-twyman": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "cliff-hagan": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "dan-roundfield": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "truck-robinson": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "maurice-lucas": [
+    "F",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "bailey-howell": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "sidney-wicks": [
+    "F",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "andrew-bogut": [
+    "C",
+    "light",
+    "long",
+    "shortbeard",
+    "",
+    "#bf9954"
+  ],
+  "walt-bellamy": [
+    "C",
+    "dark",
+    "short",
+    "goatee",
+    "",
+    "#bf9954"
+  ],
+  "swen-nater": [
+    "C",
+    "light",
+    "long",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "bill-cartwright": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "tree-rollins": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "johnny-kerr": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "norm-van-lier": [
+    "G",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "archie-clark": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "lou-hudson": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "larry-costello": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "tom-gola": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "dick-garmaker": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "jack-george": [
+    "G",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "kevin-porter": [
+    "G",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#c65f58"
+  ],
+  "vern-fleming": [
+    "G",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#c65f58"
+  ],
+  "paul-silas": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "chet-walker": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "jim-pollard": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "vern-mikkelsen": [
+    "F",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "larry-kenon": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "orlando-woolridge": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "tom-sanders": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "john-drew": [
+    "F",
+    "dark",
+    "afro",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "cazzie-russell": [
+    "F",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#619c9e"
+  ],
+  "kermit-washington": [
+    "F",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "bob-kauffman": [
+    "F",
+    "light",
+    "darkshort",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "derrick-mckey": [
+    "F",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#619c9e"
+  ],
+  "larry-foust": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "zelmo-beaty": [
+    "C",
+    "dark",
+    "short",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "darrell-imhoff": [
+    "C",
+    "light",
+    "darkshort",
+    "none",
+    "",
+    "#bf9954"
+  ],
+  "clifford-ray": [
+    "C",
+    "dark",
+    "short",
+    "mustache",
+    "",
+    "#bf9954"
+  ]
+}

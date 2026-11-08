@@ -1,0 +1,167 @@
+.player-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card-top,
+.card-bottom {
+  width: 100%;
+}
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-style {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 11px;
+  line-height: 1.35;
+  text-transform: none;
+  margin: 7px 0;
+  color: #36413a;
+  min-height: 4.05em;
+}
+.featured-label {
+  display: block;
+  min-height: 1.5em;
+  margin-top: 5px;
+  font:
+    700 9px/1.5 ui-monospace,
+    monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8a3513;
+}
+.player-card[data-featured="true"] {
+  border-color: #eaa15b;
+}
+.card-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px 7px;
+  margin: auto 0 7px;
+  padding-top: 7px;
+}
+.card-stats > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+.card-stats small {
+  font-size: 9px;
+  font-weight: 700;
+  color: #526052;
+}
+.card-stats b {
+  font-size: 12px;
+}
+.career-detail {
+  margin: 22px 0;
+  border-top: 1px solid #b4b39b;
+  padding-top: 12px;
+  text-align: left;
+}
+.career-detail h3 {
+  font-size: 14px;
+  margin: 17px 0 8px;
+}
+.career-detail p,
+.career-detail li {
+  font-size: 13px;
+  line-height: 1.6;
+}
+.career-detail ul {
+  padding-left: 17px;
+}
+.career-detail a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 6px;
+  color: #7d3215;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.historical-roster {
+  margin: 20px 0;
+  text-align: left;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.historical-roster h3 {
+  font-size: 13px;
+  color: var(--orange);
+}
+.historical-roster ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 7px;
+  font-size: 13px;
+}
+.historical-roster p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #aab4aa;
+}
+.manual-share-text {
+  width: 100%;
+  min-height: 170px;
+  resize: vertical;
+  font:
+    16px/1.5 ui-monospace,
+    monospace;
+  padding: 12px;
+  color: #202725;
+  background: #fff8e4;
+  border: 1px solid #697368;
+}
+.player-modal .player-detail-head h2 {
+  font-size: clamp(18px, 5vw, 24px);
+  line-height: 1.2;
+  margin-top: 10px;
+}
+.player-modal .player-detail-head .eyebrow {
+  display: block;
+  padding-right: 35px;
+  overflow-wrap: anywhere;
+}
+.historical-roster summary::before {
+  content: "+";
+  font-size: 20px;
+  margin-right: 10px;
+}
+.historical-roster[open] summary::before {
+  content: "−";
+}
+.historical-roster summary,
+.historical-roster a {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.draft-cards .player-card:nth-child(4) {
+  animation-delay: 0.12s;
+}
+.draft-cards .player-card:nth-child(5) {
+  animation-delay: 0.24s;
+}
+.draft-cards .player-card:nth-child(6) {
+  animation-delay: 0.36s;
+}
+@media (min-width: 700px) {
+  .card-stats small {
+    font-size: 11px;
+  }
+  .card-stats b {
+    font-size: 15px;
+  }
+  .card-style {
+    font-size: 13px;
+    min-height: 2.7em;
+  }
+}

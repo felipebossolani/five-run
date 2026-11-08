@@ -1,0 +1,564 @@
+{
+  "assumptions": "Same seed strings and current rules version for both distributions; recognition is editorial, not measured popularity; OVR is weighted and rounded. Random choice has a separate audit RNG.",
+  "rulesVersion": "4",
+  "sizes": {
+    "G": 200,
+    "F": 200,
+    "C": 100
+  },
+  "featuredCounts": {
+    "G": 12,
+    "F": 12,
+    "C": 6
+  },
+  "featuredIds": [
+    "michael-jordan",
+    "kobe-bryant",
+    "magic-johnson",
+    "stephen-curry",
+    "oscar-robertson",
+    "jerry-west",
+    "dwyane-wade",
+    "allen-iverson",
+    "james-harden",
+    "steve-nash",
+    "jason-kidd",
+    "john-stockton",
+    "lebron-james",
+    "larry-bird",
+    "kevin-durant",
+    "giannis-antetokounmpo",
+    "tim-duncan",
+    "dirk-nowitzki",
+    "charles-barkley",
+    "scottie-pippen",
+    "kawhi-leonard",
+    "julius-erving",
+    "karl-malone",
+    "kevin-garnett",
+    "kareem-abdul-jabbar",
+    "wilt-chamberlain",
+    "bill-russell",
+    "shaquille-o-neal",
+    "hakeem-olajuwon",
+    "nikola-jokic"
+  ],
+  "analyticalUniform": {
+    "perRound": {
+      "G": 0.3134884157630957,
+      "F": 0.3134884157630957,
+      "C": 0.3169622686049707
+    },
+    "anyFive": 0.8519324501005563,
+    "allFive": 0.002716177420067427
+  },
+  "historical": [
+    {
+      "id": "chicago-1996",
+      "name": "Chicago Bulls",
+      "meanOvr": 81,
+      "attributes": {
+        "shooting": 70.4,
+        "finishing": 82.6,
+        "playmaking": 79,
+        "defense": 91.2,
+        "rebounding": 78.8,
+        "athleticism": 83.2
+      }
+    },
+    {
+      "id": "golden-state-2017",
+      "name": "Golden State Warriors",
+      "meanOvr": 84.4,
+      "attributes": {
+        "shooting": 84.8,
+        "finishing": 84.4,
+        "playmaking": 82.8,
+        "defense": 84.6,
+        "rebounding": 73,
+        "athleticism": 83
+      }
+    },
+    {
+      "id": "los-angeles-2001",
+      "name": "Los Angeles Lakers",
+      "meanOvr": 82.2,
+      "attributes": {
+        "shooting": 72.2,
+        "finishing": 85,
+        "playmaking": 77.8,
+        "defense": 86.6,
+        "rebounding": 74.8,
+        "athleticism": 84
+      }
+    },
+    {
+      "id": "boston-1986",
+      "name": "Boston Celtics",
+      "meanOvr": 85.2,
+      "attributes": {
+        "shooting": 80.8,
+        "finishing": 87.8,
+        "playmaking": 81.2,
+        "defense": 89.2,
+        "rebounding": 78.4,
+        "athleticism": 80.6
+      }
+    },
+    {
+      "id": "san-antonio-2014",
+      "name": "San Antonio Spurs",
+      "meanOvr": 82.6,
+      "attributes": {
+        "shooting": 74.6,
+        "finishing": 85.2,
+        "playmaking": 81.4,
+        "defense": 86.8,
+        "rebounding": 73.8,
+        "athleticism": 80
+      }
+    },
+    {
+      "id": "miami-2013",
+      "name": "Miami Heat",
+      "meanOvr": 84.2,
+      "attributes": {
+        "shooting": 75.6,
+        "finishing": 87.6,
+        "playmaking": 79.2,
+        "defense": 87.8,
+        "rebounding": 75.2,
+        "athleticism": 87
+      }
+    },
+    {
+      "id": "houston-1994",
+      "name": "Houston Rockets",
+      "meanOvr": 82.6,
+      "attributes": {
+        "shooting": 78,
+        "finishing": 85,
+        "playmaking": 76,
+        "defense": 85.8,
+        "rebounding": 74.4,
+        "athleticism": 85.6
+      }
+    },
+    {
+      "id": "detroit-2004",
+      "name": "Detroit Pistons",
+      "meanOvr": 84.2,
+      "attributes": {
+        "shooting": 77.2,
+        "finishing": 82,
+        "playmaking": 74.8,
+        "defense": 92.2,
+        "rebounding": 75.6,
+        "athleticism": 86.2
+      }
+    },
+    {
+      "id": "philadelphia-1983",
+      "name": "Philadelphia 76ers",
+      "meanOvr": 84.8,
+      "attributes": {
+        "shooting": 73.8,
+        "finishing": 89.6,
+        "playmaking": 79,
+        "defense": 90,
+        "rebounding": 75,
+        "athleticism": 88.8
+      }
+    },
+    {
+      "id": "new-york-1970",
+      "name": "New York Knicks",
+      "meanOvr": 83.8,
+      "attributes": {
+        "shooting": 80.6,
+        "finishing": 85.6,
+        "playmaking": 79,
+        "defense": 88.4,
+        "rebounding": 76,
+        "athleticism": 81
+      }
+    },
+    {
+      "id": "los-angeles-1987",
+      "name": "Los Angeles Lakers",
+      "meanOvr": 83.2,
+      "attributes": {
+        "shooting": 80.2,
+        "finishing": 88.6,
+        "playmaking": 81,
+        "defense": 82,
+        "rebounding": 76.6,
+        "athleticism": 83.6
+      }
+    },
+    {
+      "id": "milwaukee-1971",
+      "name": "Milwaukee Bucks",
+      "meanOvr": 84,
+      "attributes": {
+        "shooting": 79.8,
+        "finishing": 87,
+        "playmaking": 79.8,
+        "defense": 83.8,
+        "rebounding": 78.6,
+        "athleticism": 83.2
+      }
+    }
+  ],
+  "scenarios": {
+    "maxOVR": {
+      "uniform": {
+        "runs": 2000,
+        "offeredAnyFeatured": 0.845,
+        "offeredAllFive": 0.002,
+        "perRoundFeatured": [
+          0.301,
+          0.305,
+          0.3385,
+          0.3105,
+          0.3115
+        ],
+        "chosenFeaturedMean": 1.122,
+        "chosenAllFive": 0,
+        "chosenMeanOvr": {
+          "p10": 88.2,
+          "p50": 89.4,
+          "p90": 90.4
+        },
+        "chosenMeanAttributes": {
+          "shooting": {
+            "p10": 80.2,
+            "p50": 85.4,
+            "p90": 89
+          },
+          "finishing": {
+            "p10": 90.8,
+            "p50": 93,
+            "p90": 95
+          },
+          "playmaking": {
+            "p10": 82.2,
+            "p50": 86.2,
+            "p90": 90
+          },
+          "defense": {
+            "p10": 84.6,
+            "p50": 89,
+            "p90": 93.2
+          },
+          "rebounding": {
+            "p10": 75,
+            "p50": 79.6,
+            "p90": 84
+          },
+          "athleticism": {
+            "p10": 88.4,
+            "p50": 91.8,
+            "p90": 94.6
+          }
+        },
+        "groupGameWinRate": 0.8626666666666667,
+        "groupQualification": 0.946,
+        "semifinalWinConditional": 0.8620507399577167,
+        "finalAppearance": 0.8155,
+        "finalWinConditional": 0.8405885959534029,
+        "titleRate": 0.6855
+      },
+      "featured": {
+        "runs": 2000,
+        "offeredAnyFeatured": 1,
+        "offeredAllFive": 1,
+        "perRoundFeatured": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "chosenFeaturedMean": 3.6835,
+        "chosenAllFive": 0.192,
+        "chosenMeanOvr": {
+          "p10": 89.8,
+          "p50": 90.8,
+          "p90": 91.6
+        },
+        "chosenMeanAttributes": {
+          "shooting": {
+            "p10": 80.6,
+            "p50": 85.6,
+            "p90": 89.6
+          },
+          "finishing": {
+            "p10": 92.2,
+            "p50": 94.8,
+            "p90": 96.8
+          },
+          "playmaking": {
+            "p10": 85,
+            "p50": 88.2,
+            "p90": 91.4
+          },
+          "defense": {
+            "p10": 86.2,
+            "p50": 90.8,
+            "p90": 94.8
+          },
+          "rebounding": {
+            "p10": 76.8,
+            "p50": 81,
+            "p90": 85.2
+          },
+          "athleticism": {
+            "p10": 89.6,
+            "p50": 93,
+            "p90": 95.8
+          }
+        },
+        "groupGameWinRate": 0.9131666666666667,
+        "groupQualification": 0.979,
+        "semifinalWinConditional": 0.8993871297242084,
+        "finalAppearance": 0.8805,
+        "finalWinConditional": 0.8972174900624645,
+        "titleRate": 0.79
+      }
+    },
+    "preferFeatured": {
+      "uniform": {
+        "runs": 2000,
+        "offeredAnyFeatured": 0.845,
+        "offeredAllFive": 0.002,
+        "perRoundFeatured": [
+          0.301,
+          0.305,
+          0.3385,
+          0.3105,
+          0.3115
+        ],
+        "chosenFeaturedMean": 1.5665,
+        "chosenAllFive": 0.002,
+        "chosenMeanOvr": {
+          "p10": 88,
+          "p50": 89.2,
+          "p90": 90.2
+        },
+        "chosenMeanAttributes": {
+          "shooting": {
+            "p10": 79.6,
+            "p50": 85.2,
+            "p90": 89.2
+          },
+          "finishing": {
+            "p10": 90.2,
+            "p50": 92.8,
+            "p90": 95.2
+          },
+          "playmaking": {
+            "p10": 82.6,
+            "p50": 86.4,
+            "p90": 90.4
+          },
+          "defense": {
+            "p10": 83.4,
+            "p50": 88.4,
+            "p90": 92.8
+          },
+          "rebounding": {
+            "p10": 74.8,
+            "p50": 79.4,
+            "p90": 84
+          },
+          "athleticism": {
+            "p10": 88,
+            "p50": 91.6,
+            "p90": 94.6
+          }
+        },
+        "groupGameWinRate": 0.8563333333333333,
+        "groupQualification": 0.9415,
+        "semifinalWinConditional": 0.8481147105682422,
+        "finalAppearance": 0.7985,
+        "finalWinConditional": 0.8296806512210394,
+        "titleRate": 0.6625
+      },
+      "featured": {
+        "runs": 2000,
+        "offeredAnyFeatured": 1,
+        "offeredAllFive": 1,
+        "perRoundFeatured": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "chosenFeaturedMean": 5,
+        "chosenAllFive": 1,
+        "chosenMeanOvr": {
+          "p10": 89,
+          "p50": 90.2,
+          "p90": 91.4
+        },
+        "chosenMeanAttributes": {
+          "shooting": {
+            "p10": 78.6,
+            "p50": 84.6,
+            "p90": 89.6
+          },
+          "finishing": {
+            "p10": 91.2,
+            "p50": 94.2,
+            "p90": 96.8
+          },
+          "playmaking": {
+            "p10": 85.8,
+            "p50": 88.8,
+            "p90": 92.2
+          },
+          "defense": {
+            "p10": 83.6,
+            "p50": 89.4,
+            "p90": 94.2
+          },
+          "rebounding": {
+            "p10": 75.8,
+            "p50": 80.8,
+            "p90": 85.4
+          },
+          "athleticism": {
+            "p10": 88.4,
+            "p50": 92.4,
+            "p90": 95.6
+          }
+        },
+        "groupGameWinRate": 0.89,
+        "groupQualification": 0.9675,
+        "semifinalWinConditional": 0.876485788113695,
+        "finalAppearance": 0.848,
+        "finalWinConditional": 0.8779481132075472,
+        "titleRate": 0.7445
+      }
+    },
+    "random": {
+      "uniform": {
+        "runs": 2000,
+        "offeredAnyFeatured": 0.845,
+        "offeredAllFive": 0.002,
+        "perRoundFeatured": [
+          0.301,
+          0.305,
+          0.3385,
+          0.3105,
+          0.3115
+        ],
+        "chosenFeaturedMean": 0.29,
+        "chosenAllFive": 0,
+        "chosenMeanOvr": {
+          "p10": 82.4,
+          "p50": 84.8,
+          "p90": 87
+        },
+        "chosenMeanAttributes": {
+          "shooting": {
+            "p10": 75.8,
+            "p50": 81.8,
+            "p90": 87.2
+          },
+          "finishing": {
+            "p10": 85,
+            "p50": 88.6,
+            "p90": 91.8
+          },
+          "playmaking": {
+            "p10": 76,
+            "p50": 80.6,
+            "p90": 85.6
+          },
+          "defense": {
+            "p10": 77.8,
+            "p50": 83,
+            "p90": 88.2
+          },
+          "rebounding": {
+            "p10": 71,
+            "p50": 75.6,
+            "p90": 80.4
+          },
+          "athleticism": {
+            "p10": 82,
+            "p50": 86.4,
+            "p90": 90.4
+          }
+        },
+        "groupGameWinRate": 0.5763333333333334,
+        "groupQualification": 0.6075,
+        "semifinalWinConditional": 0.5917695473251029,
+        "finalAppearance": 0.3595,
+        "finalWinConditional": 0.627260083449235,
+        "titleRate": 0.2255
+      },
+      "featured": {
+        "runs": 2000,
+        "offeredAnyFeatured": 1,
+        "offeredAllFive": 1,
+        "perRoundFeatured": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "chosenFeaturedMean": 1.0615,
+        "chosenAllFive": 0.0005,
+        "chosenMeanOvr": {
+          "p10": 83.2,
+          "p50": 85.6,
+          "p90": 88
+        },
+        "chosenMeanAttributes": {
+          "shooting": {
+            "p10": 76,
+            "p50": 82.2,
+            "p90": 87.6
+          },
+          "finishing": {
+            "p10": 85.6,
+            "p50": 89.6,
+            "p90": 93
+          },
+          "playmaking": {
+            "p10": 77.6,
+            "p50": 82,
+            "p90": 86.8
+          },
+          "defense": {
+            "p10": 78.6,
+            "p50": 83.8,
+            "p90": 89.2
+          },
+          "rebounding": {
+            "p10": 71.4,
+            "p50": 76.2,
+            "p90": 81
+          },
+          "athleticism": {
+            "p10": 82.8,
+            "p50": 87.4,
+            "p90": 91.6
+          }
+        },
+        "groupGameWinRate": 0.6351666666666667,
+        "groupQualification": 0.6885,
+        "semifinalWinConditional": 0.6761074800290486,
+        "finalAppearance": 0.4655,
+        "finalWinConditional": 0.6616541353383458,
+        "titleRate": 0.308
+      }
+    }
+  },
+  "runtimeSeconds": 167.49033929099997
+}

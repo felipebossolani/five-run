@@ -1,0 +1,50 @@
+import type { Attribute, Group } from "./types";
+export const RULES_VERSION = "5";
+export const DRAFT_OPTIONS = 6;
+export const ATTRIBUTES: Attribute[] = [
+  "shooting",
+  "finishing",
+  "playmaking",
+  "defense",
+  "rebounding",
+  "athleticism",
+];
+export const WEIGHTS: Record<Group, number[]> = {
+  G: [0.25, 0.15, 0.3, 0.15, 0.05, 0.1],
+  F: [0.25, 0.2, 0.15, 0.2, 0.1, 0.1],
+  C: [0.1, 0.25, 0.05, 0.25, 0.25, 0.1],
+};
+export const RULES = {
+  possessions: 18,
+  overtimePossessions: 5,
+  maxOvertimes: 20,
+  turnoverBase: 0.12,
+  twoBase: 0.5,
+  threeBase: 0.33,
+  reboundBase: 0.25,
+  turnoverDefense: 0.11,
+  turnoverCreation: 0.12,
+  turnoverAthleticism: 0.08,
+  turnoverMin: 0.035,
+  turnoverMax: 0.25,
+  threeShareBase: 0.3,
+  threeShareShooting: 0.004,
+  threeShareMin: 0.15,
+  threeShareMax: 0.45,
+  threeShooting: 0.6,
+  threeCreation: 0.3,
+  threeAthleticism: 0.15,
+  threeDefense: 0.27,
+  twoFinishing: 0.45,
+  twoShooting: 0.2,
+  twoCreation: 0.32,
+  twoAthleticism: 0.22,
+  twoDefense: 0.3,
+  accuracyMin: 0.12,
+  accuracyMax: 0.85,
+  reboundDifference: 0.4,
+  reboundMin: 0.08,
+  reboundMax: 0.48,
+  referenceAttribute: 75,
+  maxAttempts: 3,
+};

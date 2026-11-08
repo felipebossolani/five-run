@@ -1,0 +1,962 @@
+[
+  {
+    "id": "deaaron-fox",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628368.png"
+  },
+  {
+    "id": "jalen-brunson",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png"
+  },
+  {
+    "id": "tyrese-maxey",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png"
+  },
+  {
+    "id": "jalen-green",
+    "skin": "medium",
+    "hair": "braids",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630224.png"
+  },
+  {
+    "id": "desmond-bane",
+    "skin": "medium",
+    "hair": "buzz",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630217.png"
+  },
+  {
+    "id": "cj-mccollum",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203468.png"
+  },
+  {
+    "id": "fred-vanvleet",
+    "skin": "lightbrown",
+    "hair": "curl",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627832.png"
+  },
+  {
+    "id": "jeff-hornacek",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204.png"
+  },
+  {
+    "id": "jeff-teague",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "mustache",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201952.png"
+  },
+  {
+    "id": "mike-bibby",
+    "skin": "lightbrown",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1710.png"
+  },
+  {
+    "id": "boris-diaw",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2564.png"
+  },
+  {
+    "id": "rui-hachimura",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629060.png"
+  },
+  {
+    "id": "danilo-gallinari",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201568.png"
+  },
+  {
+    "id": "dillon-brooks",
+    "skin": "medium",
+    "hair": "buzz",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png"
+  },
+  {
+    "id": "cedi-osman",
+    "skin": "light",
+    "hair": "curl",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626224.png"
+  },
+  {
+    "id": "hedo-turkoglu",
+    "skin": "light",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2045.png"
+  },
+  {
+    "id": "nemanja-bjelica",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202357.png"
+  },
+  {
+    "id": "dario-saric",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203967.png"
+  },
+  {
+    "id": "bojan-bogdanovic",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202711.png"
+  },
+  {
+    "id": "mario-hezonja",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626209.png"
+  },
+  {
+    "id": "david-lee",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101135.png"
+  },
+  {
+    "id": "jusuf-nurkic",
+    "skin": "light",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203994.png"
+  },
+  {
+    "id": "kristaps-porzingis",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png"
+  },
+  {
+    "id": "roy-hibbert",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201579.png"
+  },
+  {
+    "id": "zydrunas-ilgauskas",
+    "skin": "light",
+    "hair": "bald",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/980.png"
+  },
+  {
+    "id": "jonas-valanciunas",
+    "skin": "light",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/202685.png"
+  },
+  {
+    "id": "victor-wembanyama",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1641705.png"
+  },
+  {
+    "id": "jason-williams",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1715.png"
+  },
+  {
+    "id": "andre-miller",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1889.png"
+  },
+  {
+    "id": "kevin-martin",
+    "skin": "lightbrown",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2755.png"
+  },
+  {
+    "id": "eddie-jones",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/224.png"
+  },
+  {
+    "id": "jameer-nelson",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2749.png"
+  },
+  {
+    "id": "goran-dragic",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201609.png"
+  },
+  {
+    "id": "jason-terry",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1891.png"
+  },
+  {
+    "id": "monta-ellis",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101145.png"
+  },
+  {
+    "id": "lou-williams",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101150.png"
+  },
+  {
+    "id": "shareef-abdur-rahim",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/949.png"
+  },
+  {
+    "id": "kenyon-martin",
+    "skin": "medium",
+    "hair": "buzz",
+    "facial": "goatee",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2030.png"
+  },
+  {
+    "id": "kyle-anderson",
+    "skin": "medium",
+    "hair": "curl",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203937.png"
+  },
+  {
+    "id": "antoine-walker",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/952.png"
+  },
+  {
+    "id": "danny-granger",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/101122.png"
+  },
+  {
+    "id": "caron-butler",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2406.png"
+  },
+  {
+    "id": "luol-deng",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2736.png"
+  },
+  {
+    "id": "brad-miller",
+    "skin": "light",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1802.png"
+  },
+  {
+    "id": "kyle-korver",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2594.png"
+  },
+  {
+    "id": "brent-barry",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/699.png"
+  },
+  {
+    "id": "mike-miller",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2034.png"
+  },
+  {
+    "id": "hersey-hawkins",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/765.png"
+  },
+  {
+    "id": "dan-majerle",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/105.png"
+  },
+  {
+    "id": "dale-ellis",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/107.png"
+  },
+  {
+    "id": "nick-anderson",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "mustache",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/98.png"
+  },
+  {
+    "id": "eric-gordon",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/201569.png"
+  },
+  {
+    "id": "dejounte-murray",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627749.png"
+  },
+  {
+    "id": "jordan-clarkson",
+    "skin": "medium",
+    "hair": "braids",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203903.png"
+  },
+  {
+    "id": "josh-smith",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "fullbeard",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2746.png"
+  },
+  {
+    "id": "charles-oakley",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/891.png"
+  },
+  {
+    "id": "derrick-coleman",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/934.png"
+  },
+  {
+    "id": "shawn-bradley",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/762.png"
+  },
+  {
+    "id": "chris-kaman",
+    "skin": "light",
+    "hair": "bald",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2549.png"
+  },
+  {
+    "id": "robert-williams-iii",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "shortbeard",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629057.png"
+  },
+  {
+    "id": "mitchell-robinson",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629011.png"
+  },
+  {
+    "id": "walker-kessler",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1631117.png"
+  },
+  {
+    "id": "alperen-sengun",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630578.png"
+  },
+  {
+    "id": "jordan-poole",
+    "skin": "medium",
+    "hair": "curl",
+    "facial": "mustache",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629673.png"
+  },
+  {
+    "id": "anfernee-simons",
+    "skin": "medium",
+    "hair": "curl",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629014.png"
+  },
+  {
+    "id": "tyler-herro",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png"
+  },
+  {
+    "id": "austin-reaves",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630559.png"
+  },
+  {
+    "id": "derrick-white",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png"
+  },
+  {
+    "id": "stephon-marbury",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/950.png"
+  },
+  {
+    "id": "rod-strickland",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/393.png"
+  },
+  {
+    "id": "terrell-brandon",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/210.png"
+  },
+  {
+    "id": "jalen-suggs",
+    "skin": "lightbrown",
+    "hair": "bald",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630591.png"
+  },
+  {
+    "id": "devin-harris",
+    "skin": "medium",
+    "hair": "buzz",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/2734.png"
+  },
+  {
+    "id": "antonio-mcdyess",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/686.png"
+  },
+  {
+    "id": "jerami-grant",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203924.png"
+  },
+  {
+    "id": "jalen-johnson",
+    "skin": "medium",
+    "hair": "afro",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630552.png"
+  },
+  {
+    "id": "og-anunoby",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png"
+  },
+  {
+    "id": "keldon-johnson",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629640.png"
+  },
+  {
+    "id": "kyle-kuzma",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png"
+  },
+  {
+    "id": "andrew-wiggins",
+    "skin": "dark",
+    "hair": "curl",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203952.png"
+  },
+  {
+    "id": "lamar-stevens",
+    "skin": "medium",
+    "hair": "braids",
+    "facial": "fullbeard",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630205.png"
+  },
+  {
+    "id": "robert-covington",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "goatee",
+    "accessory": "headband",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203496.png"
+  },
+  {
+    "id": "wendell-carter-jr",
+    "skin": "medium",
+    "hair": "buzz",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1628976.png"
+  },
+  {
+    "id": "ivica-zubac",
+    "skin": "light",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627826.png"
+  },
+  {
+    "id": "kevon-looney",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1626172.png"
+  },
+  {
+    "id": "nic-claxton",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1629651.png"
+  },
+  {
+    "id": "mason-plumlee",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/203486.png"
+  },
+  {
+    "id": "herb-jones",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1630529.png"
+  },
+  {
+    "id": "jakob-poeltl",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://cdn.nba.com/headshots/nba/latest/260x190/1627751.png"
+  },
+  {
+    "id": "brandon-roy",
+    "skin": "medium",
+    "hair": "buzz",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://www.spokesman.com/stories/2010/oct/15/roy-wants-ball-in-hands/"
+  },
+  {
+    "id": "derek-harper",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://www.massiveactionmedia.com/post/top-20-dallas-maverick-players-of-all-time-2025"
+  },
+  {
+    "id": "glen-rice",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://www.foxsports.com/stories/nba/whos-the-best-shooting-guard-in-charlotte-hornets-history"
+  },
+  {
+    "id": "michael-redd",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://biographs.org/michael-redd"
+  },
+  {
+    "id": "michael-finley",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.xxlbasketball.com.tw/article/1284"
+  },
+  {
+    "id": "latrell-sprewell",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.foxsports.com/stories/nba/ex-nba-star-latrell-sprewell-has-some-horrible-life-advice-for-you"
+  },
+  {
+    "id": "detlef-schrempf",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.thefamouspeople.com/profiles/detlef-schrempf-11199.php"
+  },
+  {
+    "id": "larry-johnson",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.ebay.com/itm/165687462820"
+  },
+  {
+    "id": "juwan-howard",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://www.ebay.com/itm/365085015835"
+  },
+  {
+    "id": "lamar-odom",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://www.yahoo.com/entertainment/slideshows/lamar-odom-ups-downs-years-172347376.html"
+  },
+  {
+    "id": "gerald-wallace",
+    "skin": "dark",
+    "hair": "braids",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://www.espn.com/nba/player/_/id/1026/gerald-wallace"
+  },
+  {
+    "id": "rik-smits",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.ebay.com/itm/351362153152"
+  },
+  {
+    "id": "mark-eaton",
+    "skin": "light",
+    "hair": "short",
+    "facial": "shortbeard",
+    "accessory": "",
+    "sourceUrl": "https://www.cbsnews.com/news/mark-eaton-died-nba-age-64-2021-29-05/"
+  },
+  {
+    "id": "mehmet-okur",
+    "skin": "light",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://www.cgtnturk.com/nbadeki-ilk-turk-all-star-mehmet-okurdan-alperen-sengune-tebrik"
+  },
+  {
+    "id": "jack-sikma",
+    "skin": "light",
+    "hair": "curl",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.si.com/extra-mustard/2013/12/20/fridays-p-m-hot-clicks"
+  },
+  {
+    "id": "manute-bol",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://sportv.globo.com/site/nba/noticia/ex-treinador-diz-que-manute-bol-tinha-50-anos-quando-jogava-na-nba.ghtml"
+  },
+  {
+    "id": "reggie-theus",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.nba.com/kings/blog/kings-talk-podcast-episode-3-reggie-theus"
+  },
+  {
+    "id": "bobby-jackson",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.nbcsportsbayarea.com/nba/sacramento-kings/bobby-jackson-nba-journey/1902380/"
+  },
+  {
+    "id": "shane-battier",
+    "skin": "medium",
+    "hair": "buzz",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.listal.com/viewimage/27326459"
+  },
+  {
+    "id": "kenny-walker",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.wuky.org/podcast/the-wuky-sportspage/2024-11-08/wuky-sportspage-hall-of-famer-kenny-sky-walker"
+  },
+  {
+    "id": "tom-chambers",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://amp.foxsports.com/stories/nba/tom-chambers-jump-from-seattle-to-phoenix-pioneered-unrestricted-free-agency-in-the-nba"
+  },
+  {
+    "id": "kiki-vandeweghe",
+    "skin": "light",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.ebay.com/itm/401295783899"
+  },
+  {
+    "id": "mark-aguirre",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://ca.pinterest.com/pin/mark-aguirre-dallas-mavericks--139682025927840015/"
+  },
+  {
+    "id": "jamal-wilkes",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.imdb.com/name/nm0929174/"
+  },
+  {
+    "id": "cedric-maxwell",
+    "skin": "dark",
+    "hair": "buzz",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.basketballnetwork.net/old-school/cedric-maxwell-highlighted-the-contrasting-meaning-of-goat-in-the-80s"
+  },
+  {
+    "id": "buck-williams",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "fullbeard",
+    "accessory": "",
+    "sourceUrl": "https://www.si.com/nba/trailblazers/onsi/news/blazers-legend-blindsided-to-be-hall-of-fame-finalist-29-years-after-last-game"
+  },
+  {
+    "id": "larry-nance",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.si.com/more-sports/2011/01/07/07back-in-time-january-7"
+  },
+  {
+    "id": "kenny-anderson",
+    "skin": "dark",
+    "hair": "bald",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://playerswiki.com/kenny-anderson/"
+  },
+  {
+    "id": "john-starks",
+    "skin": "medium",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.si.com/nba/2022/01/13/john-starks-pat-riley-1994-nba-finals-game-7-daily-cover"
+  },
+  {
+    "id": "cliff-robinson",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "goatee",
+    "accessory": "",
+    "sourceUrl": "https://marriedceleb.com/heather-lufkins"
+  },
+  {
+    "id": "terry-cummings",
+    "skin": "dark",
+    "hair": "short",
+    "facial": "none",
+    "accessory": "",
+    "sourceUrl": "https://www.imdb.com/name/nm0191970/bio/"
+  }
+]
