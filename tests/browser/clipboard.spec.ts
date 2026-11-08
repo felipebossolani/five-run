@@ -1,4 +1,8 @@
 import { test, expect } from "@playwright/test";
+
+test.afterEach(async ({ page }) => {
+  await page.unrouteAll({ behavior: "wait" });
+});
 import {
   newRun,
   offerDraft,

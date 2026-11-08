@@ -1,5 +1,9 @@
 import { test, expect } from "@playwright/test";
 
+test.afterEach(async ({ page }) => {
+  await page.unrouteAll({ behavior: "wait" });
+});
+
 test("Play works on an insecure HTTP origin without randomUUID and restores the draft", async ({
   page,
 }) => {

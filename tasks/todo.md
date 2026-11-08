@@ -66,7 +66,7 @@ Felipe approved both artworks and authorized commit, push and GitHub Pages publi
 - [x] Enable GitHub Pages and verify the public game, portraits, reload and sharing cover.
 - [x] Add manifest, service worker and scoped/versioned app-shell caching.
 - [x] Verify installation metadata and offline saved-draft restoration.
-- [ ] Commit, publish and verify the PWA at the public URL.
+- [x] Commit, publish and verify the PWA at the public URL.
 
 ### Review
-Initial release e832762 published successfully at https://felipebossolani.github.io/five-run/. Mobile Chromium smoke: six portraits loaded, same offers after reload, no horizontal overflow or page errors; Open Graph image returns 200. PWA requested subsequently, implementation in progress.
+Initial release e832762 published successfully at https://felipebossolani.github.io/five-run/. Mobile Chromium smoke: six portraits loaded, same offers after reload, no horizontal overflow or page errors; Open Graph image returns 200. PWA subsequently published from c42d75d; public HTTPS browser smoke confirmed standalone manifest, active controller and identical saved offers after offline reload. Physical-device installation remains a manual check.
